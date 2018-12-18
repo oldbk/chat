@@ -1,0 +1,20 @@
+11/10/2018 23:58:32 1.9366638660431: select * from oldbk.new_updates where  id > 409 and  hide=0 order by top asc , cdate desc limit 10; 
+13/10/2018 16:02:19 1.2749760150909: UPDATE `users` SET `odate` = 1539435737 WHERE `id` = 127410;
+23/10/2018 23:58:31 1.4056470394135: SELECT * FROM `users` WHERE `id` = '127410' LIMIT 1;
+23/10/2018 23:58:32 1.5482060909271: select align,u.id,exp,klan,level,login,battle,deal,odate,u.id_grup as id_grup,u.room as room,u.podarokAD as podarokAD, u.ruines as ruines,u.hidden as iluz,slp,hiddenlog,u.naim,unikstatus,
+			(SELECT `id` FROM `effects` WHERE (`type` = 11 OR `type` = 12 OR `type` = 13 OR `type` = 14) AND `owner` = u.id LIMIT 1) as trv,deal FROM  `users` as u
+		    	WHERE (u.`odate` >= 1540328221 OR u.`in_tower` = 1 OR u.`in_tower` = 2 OR u.`in_tower` = 15) AND u.`room` = 93 ORDER by deal DESC, `u`.`login`;
+24/10/2018 01:33:02 1.8971099853516: UPDATE users set ldate='1540333981' where id=127410; 
+24/10/2018 13:35:47 1.2489039897919: UPDATE `users` SET `odate` = 1540377345 WHERE `id` = 127410;
+25/10/2018 23:58:30 2.1098890304565: UPDATE users set ldate='1540501108' where id=127410; 
+26/10/2018 23:58:33 3.3182940483093: UPDATE users set ldate='1540587510' where id=127410; 
+18/11/2018 23:58:31 2.2981989383698: SELECT * FROM `users` WHERE `id` = '127410' LIMIT 1;
+21/11/2018 23:58:33 1.4838271141052: SELECT * FROM `users` WHERE `id` = '127410' LIMIT 1;
+24/11/2018 23:58:34 1.6862468719482: SELECT * FROM `users` WHERE `id` = '127410' LIMIT 1;
+01/12/2018 23:58:35 1.6431558132172: SELECT * FROM `users` WHERE `id` = '127410' LIMIT 1;
+10/12/2018 21:25:16 6.4892220497131: SELECT * from oldbk.user_location where user_id='127410' ;
+10/12/2018 21:25:20 3.3604071140289: SELECT * from oldbk.user_location where user_id='127410' ;
+10/12/2018 21:25:24 4.1517140865326: SELECT * from oldbk.user_location where user_id='127410' ;
+10/12/2018 21:25:31 6.8655478954315: SELECT * from oldbk.user_location where user_id='127410' ;
+10/12/2018 21:25:33 2.5532011985779: SELECT * from oldbk.user_location where user_id='127410' ;
+10/12/2018 21:25:35 0.90371608734131: SELECT * from oldbk.user_location where user_id='127410' ;

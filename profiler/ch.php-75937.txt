@@ -1,0 +1,19 @@
+06/10/2018 23:58:30 0.96776103973389: SELECT * FROM `users` WHERE `id` = '75937' LIMIT 1;
+20/10/2018 23:58:28 1.8380630016327: SELECT * FROM `users` WHERE `id` = '75937' LIMIT 1;
+22/10/2018 21:11:27 1.2196650505066: SELECT max(id) as maxid FROM oldbk.chat
+02/11/2018 23:58:35 0.93528199195862: SELECT * FROM `users` WHERE `id` = '75937' LIMIT 1;
+08/11/2018 23:33:48 1.027853012085: SELECT * FROM `users` WHERE `id` = '75937' LIMIT 1;
+08/11/2018 23:58:34 1.6747720241547: SELECT * FROM `users` WHERE `id` = '75937' LIMIT 1;
+15/11/2018 23:58:34 1.975665807724: select align,u.id,exp,klan,level,login,battle,deal,odate,u.id_grup as id_grup,u.room as room,u.podarokAD as podarokAD, u.ruines as ruines,u.hidden as iluz,slp,hiddenlog,u.naim,unikstatus,
+			(SELECT `id` FROM `effects` WHERE (`type` = 11 OR `type` = 12 OR `type` = 13 OR `type` = 14) AND `owner` = u.id LIMIT 1) as trv,deal FROM  `users` as u
+		    	WHERE (u.`odate` >= 1542315422 OR u.`in_tower` = 1 OR u.`in_tower` = 2 OR u.`in_tower` = 15) AND u.`room` = 5007324 ORDER by deal DESC, `u`.`login`;
+18/11/2018 02:08:22 1.4063498973846: SELECT max(id) as maxid FROM oldbk.chat
+24/11/2018 23:58:34 0.92041015625: SELECT * FROM `users` WHERE `id` = '75937' LIMIT 1;
+01/12/2018 23:58:35 1.9678947925568: SELECT UNIX_TIMESTAMP(`cdate`) as tt,text,id FROM oldbk.chat where ((id > 427373132 AND id <= 427373495)) and (city=1 or city=0) and (room='1' or room='-1' ) order by id ASC
+08/12/2018 12:24:04 1.8649849891663: UPDATE `users` SET `odate` = 1544261042 WHERE `id` = 75937;
+10/12/2018 21:25:08 1.7535378932953: SELECT * from oldbk.user_location where user_id='75937' ;
+10/12/2018 21:25:17 9.7451429367065: SELECT * from oldbk.user_location where user_id='75937' ;
+10/12/2018 21:25:26 8.5160250663757: SELECT * from oldbk.user_location where user_id='75937' ;
+10/12/2018 21:25:31 5.5558450222015: SELECT * from oldbk.user_location where user_id='75937' ;
+10/12/2018 21:25:34 2.2526299953461: SELECT * from oldbk.user_location where user_id='75937' ;
+10/12/2018 21:25:36 1.9587199687958: SELECT * from oldbk.user_location where user_id='75937' ;

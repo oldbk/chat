@@ -1,0 +1,2 @@
+13/10/2018 16:02:19 0.98605394363403: UPDATE users set ldate='1539435738' where id=38555; 
+28/10/2018 14:27:19 1.4479858875275: select * from users_clons  where bot_room=49999 and bot_online > 0 ORDER by login;

@@ -1,0 +1,17 @@
+08/10/2018 20:03:03 1.1023318767548: SELECT * FROM `users` WHERE `id` = '643519' LIMIT 1;
+09/10/2018 22:07:49 1.2376129627228: UPDATE users set ldate='1539112067' where id=643519; 
+22/10/2018 20:10:18 1.8467018604279: UPDATE `users` SET `odate` = 1540228216 WHERE `id` = 643519;
+24/10/2018 01:31:24 1.1317279338837: UPDATE users set ldate='1540333883' where id=643519; 
+30/10/2018 21:42:49 1.3486340045929: UPDATE `users` SET `odate` = 1540924967 WHERE `id` = 643519;
+11/11/2018 22:08:35 1.6254279613495: SELECT UNIX_TIMESTAMP(`cdate`) as tt,text,id FROM oldbk.chat where ((id > 420373893 AND id <= 420375761)) and (city=1 or city=0) and (room='52243' or room='-1' ) order by id ASC
+14/11/2018 22:42:18 1.6982979774475: SELECT * FROM `users` WHERE `id` = '643519' LIMIT 1;
+30/11/2018 23:58:33 1.3000211715698: SELECT * FROM `users` WHERE `id` = '643519' LIMIT 1;
+10/12/2018 21:25:07 1.5058040618896: SELECT * FROM `users` WHERE `id` = '643519' LIMIT 1;
+10/12/2018 21:25:13 4.7666931152344: SELECT * from oldbk.user_location where user_id='643519' ;
+10/12/2018 21:25:15 2.4693069458008: SELECT * from oldbk.user_location where user_id='643519' ;
+10/12/2018 21:25:24 8.9992480278015: SELECT * from oldbk.user_location where user_id='643519' ;
+10/12/2018 21:25:26 1.3405239582062: SELECT * from oldbk.user_location where user_id='643519' ;
+10/12/2018 21:25:28 1.9523050785065: SELECT * from oldbk.user_location where user_id='643519' ;
+10/12/2018 21:25:30 2.5531730651855: SELECT * from oldbk.user_location where user_id='643519' ;
+10/12/2018 21:25:32 1.8030459880829: SELECT * from oldbk.user_location where user_id='643519' ;
+10/12/2018 21:25:34 1.6603879928589: UPDATE `users` SET `odate` = 1544466332 WHERE `id` = 643519;

@@ -1,0 +1,11 @@
+10/10/2018 23:58:30 1.002876996994: SELECT * FROM `users` WHERE `id` = '577125' LIMIT 1;
+13/10/2018 16:02:44 1.3631808757782: UPDATE users set ldate='1539435763' where id=577125; 
+14/10/2018 23:58:30 1.8089289665222: UPDATE users set ldate='1539550708' where id=577125; 
+31/10/2018 19:31:03 1.7425968647003: SELECT * FROM `users` WHERE `id` = '577125' LIMIT 1;
+04/11/2018 23:58:32 1.6986351013184: UPDATE users set ldate='1541365111' where id=577125; 
+04/11/2018 23:58:34 1.9957439899445: SELECT * from oldbk.user_location where user_id='577125' ;
+07/11/2018 23:58:33 2.021940946579: SELECT * FROM `users` WHERE `id` = '577125' LIMIT 1;
+28/11/2018 19:24:03 0.9371349811554: UPDATE users set ldate='1543422242' where id=577125; 
+01/12/2018 23:58:35 1.9723620414734: select align,u.id,exp,klan,level,login,battle,deal,odate,u.id_grup as id_grup,u.room as room,u.podarokAD as podarokAD, u.ruines as ruines,u.hidden as iluz,slp,u.naim,unikstatus,
+			(SELECT `id` FROM `effects` WHERE (`type` = 11 OR `type` = 12 OR `type` = 13 OR `type` = 14) AND `owner` = u.id LIMIT 1) as trv,deal FROM  `users` as u
+					    WHERE ((u.`odate` >= 1543697823)) AND u.`id` IN (SELECT `friend` FROM oldbk.friends WHERE owner = 577125 and type = 0 AND klan_list = '')  ORDER by deal DESC, `u`.`login`;

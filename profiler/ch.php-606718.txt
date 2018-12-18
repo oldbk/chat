@@ -1,0 +1,4 @@
+03/11/2018 23:58:34 2.8300819396973: SELECT * FROM `users` WHERE `id` = '606718' LIMIT 1;
+10/12/2018 21:25:08 1.0071399211884: SELECT * from oldbk.user_location where user_id='606718' ;
+10/12/2018 21:25:33 24.251056909561: SELECT * from oldbk.user_location where user_id='606718' ;
+10/12/2018 21:25:34 1.3576180934906: SELECT * from oldbk.user_location where user_id='606718' ;

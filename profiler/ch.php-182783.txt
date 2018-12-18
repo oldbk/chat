@@ -1,0 +1,4 @@
+11/10/2018 23:58:32 1.0667488574982: SELECT * FROM `users` WHERE `id` = '182783' LIMIT 1;
+24/10/2018 23:58:29 1.4707360267639: SELECT max(id) as maxid FROM oldbk.chat
+24/10/2018 23:58:31 1.9751081466675: SELECT UNIX_TIMESTAMP(`cdate`) as tt,text,id FROM oldbk.chat where ((id > 413593651 AND id <= 413594017)) and (city=1 or city=0) and (room='20' or room='-1' ) order by id ASC
+03/12/2018 23:58:33 1.9011459350586: SELECT * FROM `users` WHERE `id` = '182783' LIMIT 1;

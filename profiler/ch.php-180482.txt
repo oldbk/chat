@@ -1,0 +1,8 @@
+19/11/2018 07:45:16 1.4068977832794: SELECT max(id) as maxid FROM oldbk.chat
+03/12/2018 19:36:18 1.3165838718414: UPDATE `users` SET `odate` = 1543854977 WHERE `id` = 180482;
+10/12/2018 21:25:07 1.2456030845642: SELECT * from oldbk.user_location where user_id='180482' ;
+10/12/2018 21:25:14 4.9061999320984: SELECT * from oldbk.user_location where user_id='180482' ;
+10/12/2018 21:25:16 1.4777421951294: SELECT * from oldbk.user_location where user_id='180482' ;
+10/12/2018 21:25:25 9.4427349567413: SELECT * from oldbk.user_location where user_id='180482' ;
+10/12/2018 21:25:31 5.5597729682922: SELECT * from oldbk.user_location where user_id='180482' ;
+10/12/2018 21:25:33 2.8589990139008: SELECT * from oldbk.user_location where user_id='180482' ;

@@ -1,0 +1,4 @@
+23/10/2018 23:58:32 1.5466430187225: SELECT * FROM oldbk.friends WHERE type = 2 AND owner = 298249
+15/11/2018 23:58:34 2.9266200065613: SELECT * FROM `users` WHERE `id` = '298249' LIMIT 1;
+18/11/2018 12:35:58 1.407280921936: select * from oldbk.new_updates where  id > 415 and  hide=0 order by top asc , cdate desc limit 10; 
+18/11/2018 19:23:36 3.6638588905334: SELECT UNIX_TIMESTAMP(`cdate`) as tt,text,id FROM oldbk.chat where ((id > 422721699 AND id <= 422731654)) and (city=1 or city=0) and (room='50585' or room='-1' ) order by id ASC

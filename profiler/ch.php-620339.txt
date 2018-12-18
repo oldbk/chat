@@ -1,0 +1,20 @@
+23/10/2018 23:58:31 1.0822649002075: SELECT * FROM `users` WHERE `id` = '620339' LIMIT 1;
+23/10/2018 23:58:32 1.5645611286163: select align,u.id,exp,klan,level,login,battle,deal,odate,u.id_grup as id_grup,u.room as room,u.podarokAD as podarokAD, u.ruines as ruines,u.hidden as iluz,slp,hiddenlog,u.naim,unikstatus,
+			(SELECT `id` FROM `effects` WHERE (`type` = 11 OR `type` = 12 OR `type` = 13 OR `type` = 14) AND `owner` = u.id LIMIT 1) as trv,deal FROM  `users` as u
+		    	WHERE (u.`odate` >= 1540328221 OR u.`in_tower` = 1 OR u.`in_tower` = 2 OR u.`in_tower` = 15) AND u.`room` = 8 ORDER by deal DESC, `u`.`login`;
+24/10/2018 00:08:56 1.0515010356903: UPDATE `users` SET `odate` = 1540328935 WHERE `id` = 620339;
+24/10/2018 00:09:26 1.6123189926147: UPDATE `users` SET `odate` = 1540328965 WHERE `id` = 620339;
+11/11/2018 23:58:34 1.7129619121552: SELECT * FROM `users` WHERE `id` = '620339' LIMIT 1;
+14/11/2018 23:58:30 1.0549998283386: UPDATE `users` SET `odate` = 1542229109 WHERE `id` = 620339;
+17/11/2018 23:58:33 2.7689299583435: SELECT * FROM `users` WHERE `id` = '620339' LIMIT 1;
+20/11/2018 23:58:33 1.5085399150848: SELECT * FROM `users` WHERE `id` = '620339' LIMIT 1;
+03/12/2018 19:36:18 0.99712705612183: SELECT * FROM `users` WHERE `id` = '620339' LIMIT 1;
+10/12/2018 21:25:09 0.91967797279358: SELECT * from oldbk.user_location where user_id='620339' ;
+10/12/2018 21:25:25 16.130228996277: SELECT * from oldbk.user_location where user_id='620339' ;
+10/12/2018 21:25:27 5.9732608795166: SELECT * FROM `users` WHERE `id` = '620339' LIMIT 1;
+10/12/2018 21:25:28 1.8022429943085: SELECT * FROM oldbk.autoanswer WHERE id = 620339 AND status = 1
+10/12/2018 21:25:31 5.5559990406036: SELECT * from oldbk.user_location where user_id='620339' ;
+10/12/2018 21:25:32 1.3521499633789: SELECT * from oldbk.user_location where user_id='620339' ;
+10/12/2018 21:25:32 3.6091928482056: SELECT max(id) as maxid FROM oldbk.chat
+10/12/2018 21:25:33 1.0514321327209: SELECT * from oldbk.user_location where user_id='620339' ;
+10/12/2018 21:25:33 1.2014808654785: SELECT * from oldbk.user_location where user_id='620339' ;

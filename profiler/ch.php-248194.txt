@@ -1,0 +1,13 @@
+03/10/2018 19:12:48 1.1784150600433: SELECT * FROM `users` WHERE `id` = '248194' LIMIT 1;
+24/10/2018 00:08:31 1.1338219642639: UPDATE users set ldate='1540328910' where id=248194; 
+27/10/2018 23:58:30 0.95758199691772: UPDATE users set ldate='1540673910' where id=248194; 
+30/10/2018 15:40:00 1.202360868454: SELECT * FROM `users` WHERE `id` = '248194' LIMIT 1;
+01/12/2018 15:53:10 1.2624909877777: SELECT * from oldbk.user_location where user_id='248194' ;
+03/12/2018 23:58:31 0.95130300521851: SELECT * FROM `users` WHERE `id` = '248194' LIMIT 1;
+03/12/2018 23:58:33 1.9992887973785: SELECT * FROM oldbk.autoanswer WHERE id = 248194 AND status = 1
+08/12/2018 12:24:04 0.90741014480591: SELECT * FROM `users` WHERE `id` = '248194' LIMIT 1;
+10/12/2018 21:25:07 1.3762710094452: SELECT * from oldbk.user_location where user_id='248194' ;
+10/12/2018 21:25:19 10.986461877823: SELECT * from oldbk.user_location where user_id='248194' ;
+10/12/2018 21:25:30 10.600394010544: SELECT * from oldbk.user_location where user_id='248194' ;
+10/12/2018 21:25:32 2.1025791168213: SELECT * from oldbk.user_location where user_id='248194' ;
+10/12/2018 21:25:34 1.3521559238434: SELECT * from oldbk.user_location where user_id='248194' ;

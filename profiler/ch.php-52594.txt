@@ -1,0 +1,5 @@
+07/12/2018 23:58:35 1.0833778381348: SELECT * FROM `users` WHERE `id` = '52594' LIMIT 1;
+08/12/2018 23:58:34 1.1656539440155: SELECT * FROM `users` WHERE `id` = '52594' LIMIT 1;
+10/12/2018 21:25:19 10.186851978302: SELECT * FROM oldbk.autoanswer WHERE id = 52594 AND status = 1
+10/12/2018 21:25:26 6.863028049469: SELECT * from oldbk.user_location where user_id='52594' ;
+10/12/2018 21:25:34 7.6698861122131: SELECT * from oldbk.user_location where user_id='52594' ;

@@ -1,0 +1,4 @@
+10/10/2018 23:58:28 0.93277597427368: UPDATE users set ldate='1539205107' where id=655267; 
+10/10/2018 23:58:30 1.8771870136261: SELECT UNIX_TIMESTAMP(`cdate`) as tt,text,id FROM oldbk.chat where ((id > 408120865 AND id <= 408121166)) and (city=1 or city=0) and (room='49999' or room='-1' ) order by id ASC
+14/11/2018 22:42:18 1.2196369171143: UPDATE users set ldate='1542224537' where id=655267; 
+05/12/2018 23:58:35 2.780868768692: UPDATE `users` SET `odate` = 1544043512 WHERE `id` = 655267;

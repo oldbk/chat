@@ -1,0 +1,12 @@
+16/11/2018 23:58:32 2.576807975769: SELECT * FROM `users` WHERE `id` = '707570' LIMIT 1;
+18/11/2018 23:58:31 1.2318098545074: SELECT * FROM `users` WHERE `id` = '707570' LIMIT 1;
+24/11/2018 23:58:34 1.2352640628815: SELECT * FROM `users` WHERE `id` = '707570' LIMIT 1;
+30/11/2018 00:32:47 1.0053329467773: SELECT * FROM `users` WHERE `id` = '707570' LIMIT 1;
+05/12/2018 23:58:35 1.1219601631165: SELECT * FROM `users` WHERE `id` = '707570' LIMIT 1;
+09/12/2018 23:58:33 1.1961388587952: UPDATE users set ldate='1544389112' where id=707570; 
+09/12/2018 23:58:35 1.9070570468903: SELECT * from oldbk.user_location where user_id='707570' ;
+10/12/2018 21:25:08 2.6331930160522: SELECT * from oldbk.user_location where user_id='707570' ;
+10/12/2018 21:25:09 1.021290063858: SELECT * from oldbk.user_location where user_id='707570' ;
+10/12/2018 21:25:20 11.196086883545: SELECT * from oldbk.user_location where user_id='707570' ;
+10/12/2018 21:25:34 14.68026804924: SELECT * from oldbk.user_location where user_id='707570' ;
+10/12/2018 21:25:36 0.9184558391571: SELECT * from oldbk.user_location where user_id='707570' ;

@@ -1,0 +1,7 @@
+04/10/2018 20:34:18 0.99047803878784: UPDATE users set ldate='1538674457' where id=376144; 
+24/10/2018 01:31:18 1.4178359508514: UPDATE users set ldate='1540333877' where id=376144; 
+24/10/2018 01:33:14 1.3119578361511: SELECT max(id) as maxid FROM oldbk.chat
+01/11/2018 23:58:36 3.1740779876709: SELECT * FROM `users` WHERE `id` = '376144' LIMIT 1;
+14/11/2018 23:58:30 0.95322608947754: UPDATE `users` SET `odate` = 1542229110 WHERE `id` = 376144;
+04/12/2018 23:58:34 1.6504530906677: select * from users where id = 376144 LIMIT 1;
+09/12/2018 23:58:35 1.8983359336853: select * from users_clons  where bot_room=8 and bot_online > 0 ORDER by login;

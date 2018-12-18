@@ -1,0 +1,9 @@
+24/10/2018 23:58:31 2.7764070034027: SELECT * FROM `users` WHERE `id` = '690261' LIMIT 1;
+24/11/2018 23:58:32 1.1448719501495: SELECT * FROM `users` WHERE `id` = '690261' LIMIT 1;
+24/11/2018 23:58:34 1.9561910629272: select align,u.id,exp,klan,level,login,battle,deal,odate,u.id_grup as id_grup,u.room as room,u.podarokAD as podarokAD, u.ruines as ruines,u.hidden as iluz,slp,hiddenlog,u.naim,unikstatus,
+			(SELECT `id` FROM `effects` WHERE (`type` = 11 OR `type` = 12 OR `type` = 13 OR `type` = 14) AND `owner` = u.id LIMIT 1) as trv,deal FROM  `users` as u
+		    	WHERE (u.`odate` >= 1543093022 OR u.`in_tower` = 1 OR u.`in_tower` = 2 OR u.`in_tower` = 15) AND u.`room` = 5015574 ORDER by deal DESC, `u`.`login`;
+01/12/2018 23:58:33 1.1293940544128: SELECT * FROM `users` WHERE `id` = '690261' LIMIT 1;
+01/12/2018 23:58:35 1.9668810367584: SELECT * FROM oldbk.autoanswer WHERE id = 690261 AND status = 1
+02/12/2018 23:58:34 1.7772610187531: UPDATE users set ldate='1543784313' where id=690261; 
+03/12/2018 23:58:33 2.0063889026642: UPDATE users set ldate='1543870711' where id=690261; 

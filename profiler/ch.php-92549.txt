@@ -1,0 +1,35 @@
+10/10/2018 23:58:30 1.6797950267792: SELECT * FROM `users` WHERE `id` = '92549' LIMIT 1;
+11/10/2018 23:19:33 0.9324038028717: UPDATE `users` SET `odate` = 1539289172 WHERE `id` = 92549;
+11/10/2018 23:58:30 0.99386191368103: UPDATE users set ldate='1539291509' where id=92549; 
+13/10/2018 16:02:23 1.3155751228333: SELECT max(id) as maxid FROM oldbk.chat
+13/10/2018 16:02:32 1.220381975174: UPDATE `users` SET `odate` = 1539435751 WHERE `id` = 92549;
+13/10/2018 20:17:15 2.9605288505554: SELECT * FROM `users` WHERE `id` = '92549' LIMIT 1;
+13/10/2018 23:58:30 1.8700249195099: SELECT * FROM `users` WHERE `id` = '92549' LIMIT 1;
+14/10/2018 23:58:30 1.5096228122711: UPDATE users set ldate='1539550709' where id=92549; 
+19/10/2018 16:50:08 1.3930480480194: UPDATE users set ldate='1539957007' where id=92549; 
+24/10/2018 00:09:26 1.3403799533844: select align,u.id,exp,klan,level,login,battle,deal,odate,u.id_grup as id_grup,u.room as room,u.podarokAD as podarokAD, u.ruines as ruines,u.hidden as iluz,slp,hiddenlog,u.naim,unikstatus,
+			(SELECT `id` FROM `effects` WHERE (`type` = 11 OR `type` = 12 OR `type` = 13 OR `type` = 14) AND `owner` = u.id LIMIT 1) as trv,deal FROM  `users` as u
+		    	WHERE (u.`odate` >= 1540328875 OR u.`in_tower` = 1 OR u.`in_tower` = 2 OR u.`in_tower` = 15) AND u.`room` = 8 ORDER by deal DESC, `u`.`login`;
+24/10/2018 01:31:30 1.0672650337219: UPDATE users set ldate='1540333889' where id=92549; 
+24/10/2018 23:58:31 2.061103105545: SELECT * FROM `users` WHERE `id` = '92549' LIMIT 1;
+26/10/2018 23:58:33 1.9529900550842: SELECT * FROM oldbk.autoanswer WHERE id = 92549 AND status = 1
+01/11/2018 23:58:36 2.0211510658264: SELECT * FROM `users` WHERE `id` = '92549' LIMIT 1;
+03/11/2018 23:58:34 2.4387068748474: SELECT * FROM `users` WHERE `id` = '92549' LIMIT 1;
+04/11/2018 23:58:34 3.2206301689148: UPDATE `users` SET `odate` = 1541365111 WHERE `id` = 92549;
+09/11/2018 23:58:32 1.3116109371185: SELECT * FROM `users` WHERE `id` = '92549' LIMIT 1;
+10/11/2018 23:58:33 1.1353220939636: SELECT * FROM `users` WHERE `id` = '92549' LIMIT 1;
+11/11/2018 22:12:14 4.3466379642487: SELECT UNIX_TIMESTAMP(`cdate`) as tt,text,id FROM oldbk.chat where ((id > 420375785 AND id <= 420376656)) and (city=1 or city=0) and (room='45' or room='-1' ) order by id ASC
+13/11/2018 23:58:31 1.2304821014404: select * from users_clons  where bot_room=1364 and bot_online > 0 ORDER by login;
+13/11/2018 23:58:33 1.3166568279266: SELECT * FROM `users` WHERE `id` = '92549' LIMIT 1;
+16/11/2018 23:58:32 3.0312030315399: SELECT * FROM `users` WHERE `id` = '92549' LIMIT 1;
+19/11/2018 07:45:17 1.611289024353: SELECT * FROM oldbk.autoanswer WHERE id = 92549 AND status = 1
+23/11/2018 23:58:31 1.4497499465942: SELECT * FROM `users` WHERE `id` = '92549' LIMIT 1;
+24/11/2018 23:58:34 1.7269520759583: SELECT * FROM `users` WHERE `id` = '92549' LIMIT 1;
+25/11/2018 23:58:33 1.1583399772644: SELECT * FROM `users` WHERE `id` = '92549' LIMIT 1;
+02/12/2018 23:58:34 1.7750380039215: SELECT * FROM `users` WHERE `id` = '92549' LIMIT 1;
+04/12/2018 22:06:02 1.0935311317444: UPDATE `users` SET `odate` = 1543950361 WHERE `id` = 92549;
+06/12/2018 23:58:36 0.95746088027954: SELECT * FROM `users` WHERE `id` = '92549' LIMIT 1;
+10/12/2018 21:25:20 12.336941003799: SELECT * from oldbk.user_location where user_id='92549' ;
+10/12/2018 21:25:33 12.978754043579: SELECT * from oldbk.user_location where user_id='92549' ;
+10/12/2018 21:25:36 0.90123581886292: SELECT * from oldbk.user_location where user_id='92549' ;
+10/12/2018 21:25:37 1.0566639900208: SELECT * from oldbk.user_location where user_id='92549' ;

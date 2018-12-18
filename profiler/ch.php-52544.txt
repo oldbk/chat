@@ -1,0 +1,6 @@
+13/10/2018 20:17:13 1.7236421108246: UPDATE `users` SET `odate` = 1539451031 WHERE `id` = 52544;
+19/10/2018 23:58:29 1.3031399250031: UPDATE users set ldate='1539982708' where id=52544; 
+10/12/2018 21:25:30 2.1143429279327: UPDATE users set ldate='1544466328' where id=52544; 
+10/12/2018 21:25:31 1.2016279697418: SELECT max(id) as maxid FROM oldbk.chat
+10/12/2018 21:25:33 1.5020558834076: SELECT UNIX_TIMESTAMP(`cdate`) as tt,text,id FROM oldbk.chat where ((id > 431407213 AND id <= 431407232)) and (city=1 or city=0) and (room='5029462' or room='-1' ) order by id ASC
+10/12/2018 21:25:34 0.90128397941589: SELECT * from oldbk.user_location where user_id='52544' ;

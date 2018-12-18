@@ -1,0 +1,20 @@
+13/10/2018 16:02:30 1.2080860137939: UPDATE `users` SET `odate` = 1539435749 WHERE `id` = 556093;
+14/10/2018 23:58:30 1.8298881053925: UPDATE users set ldate='1539550708' where id=556093; 
+22/10/2018 20:10:18 1.1174530982971: SELECT * FROM `users` WHERE `id` = '556093' LIMIT 1;
+22/10/2018 23:58:30 1.2408850193024: SELECT * FROM `users` WHERE `id` = '556093' LIMIT 1;
+23/10/2018 23:58:31 1.4602191448212: UPDATE users set ldate='1540328309' where id=556093; 
+31/10/2018 23:58:37 1.4496538639069: SELECT * FROM `users` WHERE `id` = '556093' LIMIT 1;
+08/11/2018 12:01:32 1.0124080181122: SELECT * FROM `users` WHERE `id` = '556093' LIMIT 1;
+11/11/2018 23:58:32 0.99606513977051: SELECT * FROM `users` WHERE `id` = '556093' LIMIT 1;
+11/11/2018 23:58:34 1.9859180450439: select align,u.id,exp,klan,level,login,battle,deal,odate,u.id_grup as id_grup,u.room as room,u.podarokAD as podarokAD, u.ruines as ruines,u.hidden as iluz,slp,hiddenlog,u.naim,unikstatus,
+			(SELECT `id` FROM `effects` WHERE (`type` = 11 OR `type` = 12 OR `type` = 13 OR `type` = 14) AND `owner` = u.id LIMIT 1) as trv,deal FROM  `users` as u
+		    	WHERE (u.`odate` >= 1541969822 OR u.`in_tower` = 1 OR u.`in_tower` = 2 OR u.`in_tower` = 15) AND u.`room` = 270 ORDER by deal DESC, `u`.`login`;
+13/11/2018 23:58:31 1.2820088863373: UPDATE users set ldate='1542142710' where id=556093; 
+15/11/2018 23:58:34 2.0375111103058: SELECT * FROM `users` WHERE `id` = '556093' LIMIT 1;
+01/12/2018 00:05:03 0.9701189994812: SELECT * FROM `users` WHERE `id` = '556093' LIMIT 1;
+05/12/2018 23:58:35 1.8768801689148: UPDATE `users` SET `odate` = 1544043513 WHERE `id` = 556093;
+08/12/2018 12:24:04 1.4768309593201: SELECT * FROM `users` WHERE `id` = '556093' LIMIT 1;
+10/12/2018 21:25:20 10.404804944992: SELECT * from oldbk.user_location where user_id='556093' ;
+10/12/2018 21:25:25 5.1979470252991: SELECT * from oldbk.user_location where user_id='556093' ;
+10/12/2018 21:25:32 7.5080380439758: SELECT * from oldbk.user_location where user_id='556093' ;
+10/12/2018 21:25:36 0.90156698226929: SELECT * from oldbk.user_location where user_id='556093' ;

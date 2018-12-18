@@ -1,0 +1,15 @@
+11/10/2018 23:58:32 1.9605281352997: select align,u.id,exp,klan,level,login,battle,deal,odate,u.id_grup as id_grup,u.room as room,u.podarokAD as podarokAD, u.ruines as ruines,u.hidden as iluz,slp,hiddenlog,u.naim,unikstatus,
+			(SELECT `id` FROM `effects` WHERE (`type` = 11 OR `type` = 12 OR `type` = 13 OR `type` = 14) AND `owner` = u.id LIMIT 1) as trv,deal FROM  `users` as u
+		    	WHERE (u.`odate` >= 1539291420 OR u.`in_tower` = 1 OR u.`in_tower` = 2 OR u.`in_tower` = 15) AND u.`room` = 8 ORDER by deal DESC, `u`.`login`;
+14/10/2018 23:58:30 1.0560591220856: SELECT * FROM `users` WHERE `id` = '707223' LIMIT 1;
+28/10/2018 13:50:04 1.0160908699036: UPDATE `users` SET `odate` = 1540723803 WHERE `id` = 707223;
+30/10/2018 23:58:33 2.6908271312714: SELECT `name`, `mname` FROM `oldbk`.`chanels` WHERE `klan`='PM' AND `user` = '707223';
+01/11/2018 23:58:36 1.5844268798828: SELECT * FROM `users` WHERE `id` = '707223' LIMIT 1;
+03/11/2018 23:58:34 2.0601139068604: SELECT * FROM `users` WHERE `id` = '707223' LIMIT 1;
+07/11/2018 23:58:33 2.1548280715942: SELECT * FROM `users` WHERE `id` = '707223' LIMIT 1;
+08/11/2018 23:33:48 1.6687839031219: SELECT max(id) as maxid FROM oldbk.chat
+30/11/2018 23:58:33 2.0147981643677: SELECT * from oldbk.user_location where user_id='707223' ;
+01/12/2018 23:58:35 1.2013671398163: SELECT * FROM `users` WHERE `id` = '707223' LIMIT 1;
+04/12/2018 23:58:34 0.9450991153717: UPDATE users set ldate='1543957113' where id=707223; 
+09/12/2018 23:58:35 1.2511579990387: SELECT * FROM `users` WHERE `id` = '707223' LIMIT 1;
+12/12/2018 23:58:32 1.5520710945129: SELECT * from oldbk.user_location where user_id='707223' ;

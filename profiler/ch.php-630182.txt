@@ -1,0 +1,21 @@
+03/10/2018 19:12:48 1.308210849762: SELECT * FROM `users` WHERE `id` = '630182' LIMIT 1;
+10/10/2018 23:58:28 1.0777590274811: UPDATE users set ldate='1539205107' where id=630182; 
+10/10/2018 23:58:30 1.8819320201874: select align,u.id,exp,klan,level,login,battle,deal,odate,u.id_grup as id_grup,u.room as room,u.podarokAD as podarokAD, u.ruines as ruines,u.hidden as iluz,slp,hiddenlog,u.naim,unikstatus,
+			(SELECT `id` FROM `effects` WHERE (`type` = 11 OR `type` = 12 OR `type` = 13 OR `type` = 14) AND `owner` = u.id LIMIT 1) as trv,deal FROM  `users` as u
+		    	WHERE (u.`odate` >= 1539205018 OR u.`in_tower` = 1 OR u.`in_tower` = 2 OR u.`in_tower` = 15) AND u.`room` = 8 ORDER by deal DESC, `u`.`login`;
+11/10/2018 23:58:32 2.633425951004: UPDATE `users` SET `odate` = 1539291509 WHERE `id` = 630182;
+15/10/2018 23:58:29 2.1008570194244: SELECT * FROM `users` WHERE `id` = '630182' LIMIT 1;
+16/10/2018 23:58:31 1.4683310985565: select * from users_clons  where bot_room=45 and bot_online > 0 ORDER by login;
+19/10/2018 23:58:31 2.6112539768219: SELECT * FROM `users` WHERE `id` = '630182' LIMIT 1;
+20/10/2018 23:58:28 1.1015169620514: SELECT * FROM `users` WHERE `id` = '630182' LIMIT 1;
+23/10/2018 23:58:32 1.5407309532166: SELECT * FROM oldbk.autoanswer WHERE id = 630182 AND status = 1
+24/10/2018 01:31:18 1.2457010746002: UPDATE `users` SET `odate` = 1540333877 WHERE `id` = 630182;
+24/10/2018 01:33:02 1.8965480327606: UPDATE users set ldate='1540333981' where id=630182; 
+26/10/2018 23:58:33 1.9686489105225: select align,u.id,exp,klan,level,login,battle,deal,odate,u.id_grup as id_grup,u.room as room,u.podarokAD as podarokAD, u.ruines as ruines,u.hidden as iluz,slp,hiddenlog,u.naim,unikstatus,
+			(SELECT `id` FROM `effects` WHERE (`type` = 11 OR `type` = 12 OR `type` = 13 OR `type` = 14) AND `owner` = u.id LIMIT 1) as trv,deal FROM  `users` as u
+		    	WHERE (u.`odate` >= 1540587421 OR u.`in_tower` = 1 OR u.`in_tower` = 2 OR u.`in_tower` = 15) AND u.`room` = 45 ORDER by deal DESC, `u`.`login`;
+07/11/2018 23:58:33 1.4315090179443: SELECT * FROM `users` WHERE `id` = '630182' LIMIT 1;
+25/11/2018 23:58:33 1.145045042038: SELECT * FROM `users` WHERE `id` = '630182' LIMIT 1;
+30/11/2018 23:58:33 2.0034649372101: SELECT * from oldbk.user_location where user_id='630182' ;
+05/12/2018 23:58:35 1.6529960632324: SELECT * FROM `users` WHERE `id` = '630182' LIMIT 1;
+09/12/2018 23:58:35 1.54310297966: SELECT * FROM `users` WHERE `id` = '630182' LIMIT 1;

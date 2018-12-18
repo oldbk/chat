@@ -1,0 +1,9 @@
+03/10/2018 23:02:34 3.2184278964996: SELECT * FROM oldbk.friends WHERE type = 2 AND owner = 306309
+11/10/2018 23:58:32 1.0241730213165: SELECT * FROM `users` WHERE `id` = '306309' LIMIT 1;
+18/11/2018 23:58:31 1.3720571994781: SELECT * FROM `users` WHERE `id` = '306309' LIMIT 1;
+03/12/2018 19:36:18 1.3461060523987: SELECT * FROM `users` WHERE `id` = '306309' LIMIT 1;
+06/12/2018 22:21:48 1.2247121334076: select align,u.id,exp,klan,level,login,battle,deal,odate,u.id_grup as id_grup,u.room as room,u.podarokAD as podarokAD, u.ruines as ruines,u.hidden as iluz,slp,hiddenlog,u.naim,unikstatus,
+			(SELECT `id` FROM `effects` WHERE (`type` = 11 OR `type` = 12 OR `type` = 13 OR `type` = 14) AND `owner` = u.id LIMIT 1) as trv,deal FROM  `users` as u
+		    	WHERE (u.`odate` >= 1544124017 OR u.`in_tower` = 1 OR u.`in_tower` = 2 OR u.`in_tower` = 15) AND u.`room` = 999 ORDER by deal DESC, `u`.`login`;
+07/12/2018 23:58:35 3.3056099414825: SELECT * FROM `users` WHERE `id` = '306309' LIMIT 1;
+10/12/2018 23:58:31 1.7381150722504: SELECT * FROM `users` WHERE `id` = '306309' LIMIT 1;

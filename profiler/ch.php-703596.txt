@@ -1,0 +1,25 @@
+10/10/2018 23:58:30 1.1960279941559: SELECT * FROM `users` WHERE `id` = '703596' LIMIT 1;
+11/10/2018 23:58:32 1.1927189826965: SELECT * FROM `users` WHERE `id` = '703596' LIMIT 1;
+19/10/2018 16:02:09 6.4727869033813: UPDATE users set ldate='1539954123' where id=703596; 
+29/10/2018 19:12:18 1.3804650306702: SELECT * FROM `users` WHERE `id` = '703596' LIMIT 1;
+08/11/2018 23:58:34 1.174329996109: SELECT * FROM `users` WHERE `id` = '703596' LIMIT 1;
+10/11/2018 23:58:33 1.81303191185: SELECT * FROM `users` WHERE `id` = '703596' LIMIT 1;
+11/11/2018 22:18:34 2.320750951767: SELECT UNIX_TIMESTAMP(`cdate`) as tt,text,id FROM oldbk.chat where ((id > 420371633 AND id <= 420377809)) and (city=1 or city=0) and (room='90' or room='-1' ) order by id ASC
+11/11/2018 22:18:51 2.6173040866852: SELECT UNIX_TIMESTAMP(`cdate`) as tt,text,id FROM oldbk.chat where ((id > 420371633 AND id <= 420377854)) and (city=1 or city=0) and (room='90' or room='-1' ) order by id ASC
+11/11/2018 22:19:08 11.321193933487: SELECT UNIX_TIMESTAMP(`cdate`) as tt,text,id FROM oldbk.chat where ((id > 420371633 AND id <= 420377886)) and (city=1 or city=0) and (room='90' or room='-1' ) order by id ASC
+11/11/2018 22:19:40 1.535187959671: SELECT UNIX_TIMESTAMP(`cdate`) as tt,text,id FROM oldbk.chat where ((id > 420371633 AND id <= 420377968)) and (city=1 or city=0) and (room='90' or room='-1' ) order by id ASC
+11/11/2018 22:19:51 5.2269330024719: SELECT UNIX_TIMESTAMP(`cdate`) as tt,text,id FROM oldbk.chat where ((id > 420371633 AND id <= 420378002)) and (city=1 or city=0) and (room='90' or room='-1' ) order by id ASC
+11/11/2018 22:20:18 2.3152890205383: SELECT UNIX_TIMESTAMP(`cdate`) as tt,text,id FROM oldbk.chat where ((id > 420371633 AND id <= 420378082)) and (city=1 or city=0) and (room='90' or room='-1' ) order by id ASC
+18/11/2018 23:58:31 1.4659869670868: SELECT * FROM `users` WHERE `id` = '703596' LIMIT 1;
+20/11/2018 23:58:33 1.4101309776306: SELECT * FROM `users` WHERE `id` = '703596' LIMIT 1;
+26/11/2018 19:38:34 1.6514329910278: SELECT * FROM `users` WHERE `id` = '703596' LIMIT 1;
+27/11/2018 23:58:33 1.8684298992157: SELECT * FROM `users` WHERE `id` = '703596' LIMIT 1;
+01/12/2018 15:53:13 3.0846259593964: SELECT * from oldbk.user_location where user_id='703596' ;
+01/12/2018 15:53:15 1.264760017395: SELECT * from oldbk.user_location where user_id='703596' ;
+01/12/2018 23:58:35 1.9601080417633: SELECT * FROM oldbk.autoanswer WHERE id = 703596 AND status = 1
+03/12/2018 23:58:33 1.9656341075897: SELECT * FROM `users` WHERE `id` = '703596' LIMIT 1;
+05/12/2018 22:26:48 1.5497500896454: UPDATE users set ldate='1544038007' where id=703596; 
+05/12/2018 23:58:35 2.6528699398041: SELECT * FROM `users` WHERE `id` = '703596' LIMIT 1;
+07/12/2018 23:58:33 1.6045031547546: select * from users where id = 703596 LIMIT 1;
+07/12/2018 23:58:35 1.9867181777954: SELECT * FROM `users` WHERE `id` = '703596' LIMIT 1;
+08/12/2018 23:58:34 0.94194316864014: SELECT * FROM `users` WHERE `id` = '703596' LIMIT 1;

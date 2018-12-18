@@ -1,0 +1,11 @@
+17/10/2018 23:58:30 1.3241889476776: SELECT max(id) as maxid FROM oldbk.chat
+09/11/2018 23:58:30 1.3914651870728: SELECT * FROM `users` WHERE `id` = '549042' LIMIT 1;
+09/11/2018 23:58:32 1.9363040924072: SELECT * FROM oldbk.autoanswer WHERE id = 549042 AND status = 1
+11/11/2018 23:58:32 1.1419019699097: UPDATE `users` SET `odate` = 1541969911 WHERE `id` = 549042;
+19/11/2018 09:27:29 1.40753698349: UPDATE users set ldate='1542608848' where id=549042; 
+08/12/2018 12:24:04 1.204066991806: SELECT * FROM `users` WHERE `id` = '549042' LIMIT 1;
+10/12/2018 21:25:08 1.2017049789429: SELECT * from oldbk.user_location where user_id='549042' ;
+10/12/2018 21:25:14 6.3032379150391: SELECT * from oldbk.user_location where user_id='549042' ;
+10/12/2018 21:25:28 13.771862983704: SELECT * from oldbk.user_location where user_id='549042' ;
+10/12/2018 21:25:31 2.7029531002045: SELECT * from oldbk.user_location where user_id='549042' ;
+10/12/2018 21:25:34 3.609855890274: SELECT * from oldbk.user_location where user_id='549042' ;

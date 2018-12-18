@@ -1,0 +1,4 @@
+13/10/2018 16:02:34 0.91875100135803: SELECT max(id) as maxid FROM oldbk.chat
+13/10/2018 20:17:15 2.6684658527374: SELECT * FROM `users` WHERE `id` = '72822' LIMIT 1;
+09/11/2018 23:58:32 1.9090230464935: SELECT * from oldbk.user_location where user_id='72822' ;
+23/11/2018 23:58:31 1.5543200969696: SELECT * from oldbk.user_location where user_id='72822' ;

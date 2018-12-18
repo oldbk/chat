@@ -1,0 +1,12 @@
+22/10/2018 21:11:27 1.4820721149445: SELECT * FROM `users` WHERE `id` = '701378' LIMIT 1;
+26/10/2018 23:58:33 1.589066028595: SELECT * FROM `users` WHERE `id` = '701378' LIMIT 1;
+29/11/2018 23:58:33 1.0367131233215: SELECT * FROM `users` WHERE `id` = '701378' LIMIT 1;
+30/11/2018 00:32:47 1.0449230670929: SELECT * FROM `users` WHERE `id` = '701378' LIMIT 1;
+07/12/2018 23:58:35 3.3769309520721: SELECT * FROM `users` WHERE `id` = '701378' LIMIT 1;
+09/12/2018 23:58:35 1.1789710521698: SELECT * FROM `users` WHERE `id` = '701378' LIMIT 1;
+10/12/2018 21:25:08 2.1130537986755: SELECT UNIX_TIMESTAMP(`cdate`) as tt,text,id FROM oldbk.chat where ((id > 431407202 AND id <= 431407231)) and (city=1 or city=0) and (room='5029502' or room='-1' ) order by id ASC
+10/12/2018 21:25:09 1.2506699562073: SELECT * from oldbk.user_location where user_id='701378' ;
+10/12/2018 21:25:28 18.614819049835: SELECT * from oldbk.user_location where user_id='701378' ;
+10/12/2018 21:25:30 2.4038529396057: SELECT * from oldbk.user_location where user_id='701378' ;
+10/12/2018 21:25:32 1.501962184906: SELECT * from oldbk.user_location where user_id='701378' ;
+10/12/2018 21:25:34 2.2566168308258: SELECT * from oldbk.user_location where user_id='701378' ;

@@ -1,0 +1,13 @@
+13/10/2018 16:02:32 1.419016122818: select align,u.id,exp,klan,level,login,battle,deal,odate,u.id_grup as id_grup,u.room as room,u.podarokAD as podarokAD, u.ruines as ruines,u.hidden as iluz,slp,hiddenlog,u.naim,unikstatus,
+			(SELECT `id` FROM `effects` WHERE (`type` = 11 OR `type` = 12 OR `type` = 13 OR `type` = 14) AND `owner` = u.id LIMIT 1) as trv,deal FROM  `users` as u
+		    	WHERE (u.`odate` >= 1539435661 OR u.`in_tower` = 1 OR u.`in_tower` = 2 OR u.`in_tower` = 15) AND u.`room` = 8 ORDER by deal DESC, `u`.`login`;
+24/10/2018 01:31:12 0.90437197685242: SELECT * FROM `users` WHERE `id` = '680604' LIMIT 1;
+24/10/2018 01:31:24 1.3819580078125: UPDATE `users` SET `odate` = 1540333883 WHERE `id` = 680604;
+06/11/2018 20:43:03 1.321172952652: SELECT * FROM `users` WHERE `id` = '680604' LIMIT 1;
+07/11/2018 23:58:33 1.7612500190735: SELECT * FROM `users` WHERE `id` = '680604' LIMIT 1;
+10/11/2018 23:58:33 0.96531295776367: SELECT * FROM `users` WHERE `id` = '680604' LIMIT 1;
+30/11/2018 00:32:47 1.1641089916229: UPDATE users set ldate='1543527166' where id=680604; 
+01/12/2018 23:58:35 1.9794938564301: select align,u.id,exp,klan,level,login,battle,deal,odate,u.id_grup as id_grup,u.room as room,u.podarokAD as podarokAD, u.ruines as ruines,u.hidden as iluz,slp,hiddenlog,u.naim,unikstatus,
+			(SELECT `id` FROM `effects` WHERE (`type` = 11 OR `type` = 12 OR `type` = 13 OR `type` = 14) AND `owner` = u.id LIMIT 1) as trv,deal FROM  `users` as u
+		    	WHERE (u.`odate` >= 1543697823 OR u.`in_tower` = 1 OR u.`in_tower` = 2 OR u.`in_tower` = 15) AND u.`room` = 8 ORDER by deal DESC, `u`.`login`;
+11/12/2018 23:14:32 1.017205953598: SELECT max(id) as maxid FROM oldbk.chat

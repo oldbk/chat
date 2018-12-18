@@ -1,0 +1,12 @@
+09/10/2018 22:07:49 1.5525238513947: UPDATE users set ldate='1539112067' where id=640761; 
+11/10/2018 23:19:33 1.2045509815216: SELECT * FROM `users` WHERE `id` = '640761' LIMIT 1;
+07/11/2018 23:58:31 1.2680509090424: SELECT * FROM `users` WHERE `id` = '640761' LIMIT 1;
+07/11/2018 23:58:33 1.5816781520844: UPDATE users set ldate='1541624311' where id=640761; 
+21/11/2018 23:58:31 0.9578549861908: UPDATE users set ldate='1542833910' where id=640761; 
+21/11/2018 23:58:33 1.9834368228912: select align,u.id,exp,klan,level,login,battle,deal,odate,u.id_grup as id_grup,u.room as room,u.podarokAD as podarokAD, u.ruines as ruines,u.hidden as iluz,slp,hiddenlog,u.naim,unikstatus,
+			(SELECT `id` FROM `effects` WHERE (`type` = 11 OR `type` = 12 OR `type` = 13 OR `type` = 14) AND `owner` = u.id LIMIT 1) as trv,deal FROM  `users` as u
+		    	WHERE (u.`odate` >= 1542833821 OR u.`in_tower` = 1 OR u.`in_tower` = 2 OR u.`in_tower` = 15) AND u.`room` = 17 ORDER by deal DESC, `u`.`login`;
+22/11/2018 23:58:32 0.91052603721619: SELECT * FROM `users` WHERE `id` = '640761' LIMIT 1;
+04/12/2018 23:58:34 1.2503590583801: SELECT * FROM `users` WHERE `id` = '640761' LIMIT 1;
+10/12/2018 21:25:14 4.816349029541: SELECT * FROM oldbk.autoanswer WHERE id = 640761 AND status = 1
+10/12/2018 21:25:34 19.568248987198: SELECT max(id) as maxid FROM oldbk.chat

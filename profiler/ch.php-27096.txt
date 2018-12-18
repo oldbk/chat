@@ -1,0 +1,17 @@
+09/10/2018 22:07:49 1.7960450649261: UPDATE users set ldate='1539112067' where id=27096; 
+12/10/2018 23:58:29 1.0242609977722: select * from users where id = 27096 LIMIT 1;
+13/10/2018 16:02:23 1.5234129428864: SELECT * FROM `ruines_map` WHERE id = 240476
+13/10/2018 16:02:34 1.1721861362457: UPDATE `users` SET `odate` = 1539435753 WHERE `id` = 27096;
+13/10/2018 16:03:05 0.95655417442322: UPDATE `users` SET `odate` = 1539435784 WHERE `id` = 27096;
+17/10/2018 19:58:03 1.2098069190979: UPDATE `users` SET `odate` = 1539795482 WHERE `id` = 27096;
+25/10/2018 23:58:30 1.1309390068054: select * from oldbk.new_updates where  id > 412 and  hide=0 order by top asc , cdate desc limit 10; 
+11/11/2018 23:58:34 1.4616351127625: SELECT * FROM `users` WHERE `id` = '27096' LIMIT 1;
+12/11/2018 23:58:33 1.4201579093933: select * from users where id = 27096 LIMIT 1;
+10/12/2018 21:25:06 1.1340889930725: SELECT max(id) as maxid FROM oldbk.chat
+10/12/2018 21:25:08 1.036728143692: SELECT * from oldbk.user_location where user_id='27096' ;
+10/12/2018 21:25:19 11.108173131943: SELECT * from oldbk.user_location where user_id='27096' ;
+10/12/2018 21:25:25 5.5787751674652: SELECT * from oldbk.user_location where user_id='27096' ;
+10/12/2018 21:25:32 7.2118830680847: SELECT * from oldbk.user_location where user_id='27096' ;
+10/12/2018 21:25:33 22.928696870804: SELECT * FROM `users` WHERE `id` = '27096' LIMIT 1;
+10/12/2018 21:25:34 2.2542340755463: SELECT * from oldbk.user_location where user_id='27096' ;
+10/12/2018 21:25:36 1.5190510749817: SELECT * from oldbk.user_location where user_id='27096' ;

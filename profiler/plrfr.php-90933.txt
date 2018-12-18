@@ -1,0 +1,1 @@
+17/11/2018 23:58:33 3.2262070178986: select * from user_event_rating where is_end = 1 and is_reward = 0 and user_id = 90933

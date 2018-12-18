@@ -1,0 +1,20 @@
+12/10/2018 23:58:29 0.98711895942688: SELECT * FROM `users` WHERE `id` = '99300' LIMIT 1;
+13/10/2018 23:58:30 2.8261861801147: SELECT * FROM `users` WHERE `id` = '99300' LIMIT 1;
+19/10/2018 10:47:44 1.4208550453186: select * from users_clons  where bot_room=8 and bot_online > 0 ORDER by login;
+23/10/2018 20:39:33 1.1859011650085: UPDATE `users` SET `odate` = 1540316371 WHERE `id` = 99300;
+23/10/2018 23:58:31 1.2607140541077: SELECT * FROM `users` WHERE `id` = '99300' LIMIT 1;
+23/10/2018 23:58:32 1.556587934494: select align,u.id,exp,klan,level,login,battle,deal,odate,u.id_grup as id_grup,u.room as room,u.podarokAD as podarokAD, u.ruines as ruines,u.hidden as iluz,slp,hiddenlog,u.naim,unikstatus,
+			(SELECT `id` FROM `effects` WHERE (`type` = 11 OR `type` = 12 OR `type` = 13 OR `type` = 14) AND `owner` = u.id LIMIT 1) as trv,deal FROM  `users` as u
+		    	WHERE (u.`odate` >= 1540328221 OR u.`in_tower` = 1 OR u.`in_tower` = 2 OR u.`in_tower` = 15) AND u.`room` = 270 ORDER by deal DESC, `u`.`login`;
+24/10/2018 00:08:45 1.1332130432129: UPDATE `users` SET `odate` = 1540328923 WHERE `id` = 99300;
+24/10/2018 23:58:31 2.0150110721588: SELECT * FROM `users` WHERE `id` = '99300' LIMIT 1;
+26/10/2018 23:58:33 1.603688955307: SELECT * FROM `users` WHERE `id` = '99300' LIMIT 1;
+01/11/2018 22:09:03 1.4252290725708: SELECT * FROM `users` WHERE `id` = '99300' LIMIT 1;
+09/11/2018 23:58:32 1.4255299568176: SELECT * FROM `users` WHERE `id` = '99300' LIMIT 1;
+11/11/2018 23:58:34 1.1733560562134: SELECT * FROM `users` WHERE `id` = '99300' LIMIT 1;
+14/11/2018 22:42:18 1.3986818790436: SELECT * FROM `users` WHERE `id` = '99300' LIMIT 1;
+27/11/2018 23:58:33 2.7438359260559: SELECT * FROM `users` WHERE `id` = '99300' LIMIT 1;
+10/12/2018 21:25:13 2.3004958629608: SELECT * FROM `users` WHERE `id` = '99300' LIMIT 1;
+10/12/2018 21:25:25 12.293267965317: SELECT * FROM oldbk.autoanswer WHERE id = 99300 AND status = 1
+10/12/2018 21:25:26 1.0471351146698: SELECT UNIX_TIMESTAMP(`cdate`) as tt,text,id FROM oldbk.chat where ((id > 431407203 AND id <= 431407232)) and (city=1 or city=0) and (room='8' or room='-1' ) order by id ASC
+10/12/2018 21:25:34 8.1135349273682: SELECT * from oldbk.user_location where user_id='99300' ;

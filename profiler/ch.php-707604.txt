@@ -1,0 +1,5 @@
+03/12/2018 23:58:33 2.0032939910889: SELECT * FROM oldbk.friends WHERE type = 2 AND owner = 707604
+10/12/2018 21:25:11 1.3361439704895: SELECT * from oldbk.user_location where user_id='707604' ;
+10/12/2018 21:25:14 2.8899390697479: SELECT * from oldbk.user_location where user_id='707604' ;
+10/12/2018 21:25:20 5.5597560405731: SELECT * from oldbk.user_location where user_id='707604' ;
+10/12/2018 21:25:34 14.319467067719: SELECT * from oldbk.user_location where user_id='707604' ;

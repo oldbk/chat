@@ -1,0 +1,12 @@
+13/10/2018 20:17:15 1.9628171920776: select align,u.id,exp,klan,level,login AS login,battle,deal,odate,u.id_grup as id_grup,u.room as room,u.podarokAD as podarokAD, u.ruines as ruines,u.id_city as id_city,u.hidden as iluz,slp,u.naim,unikstatus,
+				(SELECT `id` FROM oldbk.effects WHERE (`type` = 11 OR `type` = 12 OR `type` = 13 OR `type` = 14) AND `owner` = u.id LIMIT 1) as trv,deal FROM  oldbk.`users` as u
+						    WHERE (u.`odate` >= 1539450943) AND  (u.`klan` = 'LionsFamily'  )  AND id_city = 0
+					ORDER by id_city  ASC , login
+				
+15/10/2018 23:58:29 2.0707790851593: SELECT * FROM `users` WHERE `id` = '263641' LIMIT 1;
+22/10/2018 20:10:18 1.4750669002533: SELECT * FROM `users` WHERE `id` = '263641' LIMIT 1;
+23/10/2018 23:58:31 1.5117540359497: UPDATE users set ldate='1540328309' where id=263641; 
+24/10/2018 01:31:24 1.4376471042633: UPDATE `users` SET `odate` = 1540333883 WHERE `id` = 263641;
+26/10/2018 23:58:31 1.2348799705505: UPDATE `users` SET `odate` = 1540587509 WHERE `id` = 263641;
+13/11/2018 23:58:33 1.1671140193939: SELECT * FROM `users` WHERE `id` = '263641' LIMIT 1;
+01/12/2018 23:58:35 1.9559679031372: SELECT UNIX_TIMESTAMP(`cdate`) as tt,text,id FROM oldbk.chat where ((id > 427373136 AND id <= 427373495)) and (city=1 or city=0) and (room='8' or room='-1' ) order by id ASC

@@ -1,0 +1,14 @@
+08/11/2018 23:33:48 0.9281690120697: UPDATE users set ldate='1541709227' where id=540064; 
+01/12/2018 23:58:35 1.7928450107574: SELECT * FROM `users` WHERE `id` = '540064' LIMIT 1;
+05/12/2018 23:58:35 1.2235820293427: SELECT * FROM `users` WHERE `id` = '540064' LIMIT 1;
+10/12/2018 21:25:18 8.5001990795135: SELECT max(id) as maxid FROM oldbk.chat
+10/12/2018 21:25:24 6.1704528331757: SELECT * from oldbk.user_location where user_id='540064' ;
+10/12/2018 21:25:28 5.0361750125885: SELECT * FROM `users` WHERE `id` = '540064' LIMIT 1;
+10/12/2018 21:25:28 4.0376479625702: SELECT * from oldbk.user_location where user_id='540064' ;
+10/12/2018 21:25:33 4.8050470352173: SELECT * from oldbk.user_location where user_id='540064' ;
+10/12/2018 21:25:33 4.9567420482635: UPDATE users set ldate='1544466328' where id=540064; 
+10/12/2018 21:25:34 0.90215396881104: select align,u.id,exp,klan,level,login AS login,battle,deal,odate,u.id_grup as id_grup,u.room as room,u.podarokAD as podarokAD, u.ruines as ruines,u.id_city as id_city,u.hidden as iluz,slp,u.naim,unikstatus,
+				(SELECT `id` FROM oldbk.effects WHERE (`type` = 11 OR `type` = 12 OR `type` = 13 OR `type` = 14) AND `owner` = u.id LIMIT 1) as trv,deal FROM  oldbk.`users` as u
+						    WHERE (u.`odate` >= 1544466243) AND  (u.`klan` = 'FuriousShadow'  )  AND id_city = 0
+					ORDER by id_city  ASC , login
+				

@@ -1,0 +1,8 @@
+22/10/2018 21:11:27 1.1559100151062: SELECT * FROM `users` WHERE `id` = '705388' LIMIT 1;
+29/10/2018 19:12:18 1.6788461208344: SELECT * FROM `users` WHERE `id` = '705388' LIMIT 1;
+31/10/2018 19:31:03 1.598778963089: SELECT * FROM `users` WHERE `id` = '705388' LIMIT 1;
+10/12/2018 21:25:18 9.2136709690094: SELECT * FROM oldbk.friends WHERE type = 2 AND owner = 705388
+10/12/2018 21:25:19 1.2048861980438: SELECT * FROM oldbk.autoanswer WHERE id = 705388 AND status = 1
+10/12/2018 21:25:28 8.8728039264679: SELECT max(id) as maxid FROM oldbk.chat
+10/12/2018 21:25:34 5.5562000274658: SELECT UNIX_TIMESTAMP(`cdate`) as tt,text,id FROM oldbk.chat where ((id > 431407231 AND id <= 431407232)) and (city=1 or city=0) and (room='8' or room='-1' ) order by id ASC
+10/12/2018 21:25:35 0.91451597213745: select * from oldbk.new_updates where  id > 415 and  hide=0 order by top asc , cdate desc limit 10; 

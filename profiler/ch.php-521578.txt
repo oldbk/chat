@@ -1,0 +1,6 @@
+22/10/2018 20:10:18 1.9206919670105: UPDATE users set ldate='1540228216' where id=521578; 
+01/11/2018 22:09:03 1.3040561676025: SELECT * FROM `users` WHERE `id` = '521578' LIMIT 1;
+04/11/2018 23:58:34 1.9092810153961: SELECT * FROM `users` WHERE `id` = '521578' LIMIT 1;
+11/11/2018 23:58:34 1.9735519886017: SELECT * from oldbk.user_location where user_id='521578' ;
+16/11/2018 23:58:32 2.2683310508728: SELECT * FROM oldbk.smiles WHERE (klan = "" and (owner = 0 OR owner = 521578))  or (owner = 0 and klan = "Mercenaries") ORDER BY id ASC
+18/11/2018 23:58:31 2.1404750347137: UPDATE users set ldate='1542574709' where id=521578; 

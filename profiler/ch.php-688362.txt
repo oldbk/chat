@@ -1,0 +1,1 @@
+22/10/2018 23:58:29 1.0284969806671: select * from users where id = 688362 LIMIT 1;

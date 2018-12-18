@@ -1,0 +1,15 @@
+06/10/2018 23:58:30 1.3380351066589: UPDATE `users` SET `odate` = 1538859509 WHERE `id` = 655138;
+10/10/2018 23:58:30 1.5645260810852: SELECT * FROM `users` WHERE `id` = '655138' LIMIT 1;
+13/10/2018 16:02:19 0.92918109893799: UPDATE users set ldate='1539435738' where id=655138; 
+13/10/2018 16:02:32 0.99222707748413: select align,u.id,exp,klan,level,login,battle,deal,odate,u.id_grup as id_grup,u.room as room,u.podarokAD as podarokAD, u.ruines as ruines,u.hidden as iluz,slp,hiddenlog,u.naim,unikstatus,
+			(SELECT `id` FROM `effects` WHERE (`type` = 11 OR `type` = 12 OR `type` = 13 OR `type` = 14) AND `owner` = u.id LIMIT 1) as trv,deal FROM  `users` as u
+		    	WHERE (u.`odate` >= 1539435661 OR u.`in_tower` = 1 OR u.`in_tower` = 2 OR u.`in_tower` = 15) AND u.`room` = 8 ORDER by deal DESC, `u`.`login`;
+13/10/2018 23:58:30 0.97580885887146: SELECT * FROM `users` WHERE `id` = '655138' LIMIT 1;
+09/11/2018 23:58:32 1.5638699531555: SELECT * FROM `users` WHERE `id` = '655138' LIMIT 1;
+18/11/2018 23:58:29 1.3000590801239: UPDATE users set ldate='1542574708' where id=655138; 
+18/11/2018 23:58:31 1.9545741081238: SELECT UNIX_TIMESTAMP(`cdate`) as tt,text,id FROM oldbk.chat where ((id > 422805558 AND id <= 422805878)) and (city=1 or city=0) and (room='8' or room='-1' ) order by id ASC
+24/11/2018 23:58:34 2.1055159568787: SELECT * FROM `users` WHERE `id` = '655138' LIMIT 1;
+26/11/2018 19:38:34 1.3712360858917: SELECT * FROM `users` WHERE `id` = '655138' LIMIT 1;
+30/11/2018 23:58:33 1.6181709766388: SELECT * FROM `users` WHERE `id` = '655138' LIMIT 1;
+05/12/2018 22:26:48 1.3704550266266: SELECT * FROM `users` WHERE `id` = '655138' LIMIT 1;
+09/12/2018 23:58:35 3.0435318946838: SELECT * FROM `users` WHERE `id` = '655138' LIMIT 1;

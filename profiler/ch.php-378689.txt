@@ -1,0 +1,6 @@
+08/12/2018 23:58:32 1.7180109024048: UPDATE `users` SET `odate` = 1544302710 WHERE `id` = 378689;
+08/12/2018 23:58:34 1.0639538764954: SELECT * FROM `users` WHERE `id` = '378689' LIMIT 1;
+10/12/2018 21:25:19 10.578809976578: SELECT * from oldbk.user_location where user_id='378689' ;
+10/12/2018 21:25:27 7.4979629516602: SELECT * from oldbk.user_location where user_id='378689' ;
+10/12/2018 21:25:28 1.3516139984131: SELECT * from oldbk.user_location where user_id='378689' ;
+10/12/2018 21:25:34 5.7088069915771: SELECT * from oldbk.user_location where user_id='378689' ;

@@ -1,0 +1,14 @@
+11/10/2018 23:58:32 1.9527881145477: UPDATE users set ldate='1539291510' where id=692108; 
+13/10/2018 16:02:55 0.92831897735596: UPDATE users set ldate='1539435774' where id=692108; 
+24/10/2018 23:58:31 1.2308359146118: SELECT * FROM `users` WHERE `id` = '692108' LIMIT 1;
+02/12/2018 23:58:34 1.804309129715: SELECT * FROM `users` WHERE `id` = '692108' LIMIT 1;
+03/12/2018 23:58:33 1.9817991256714: select * from users_clons  where bot_room=8 and bot_online > 0 ORDER by login;
+05/12/2018 23:58:35 2.3211328983307: SELECT * FROM `users` WHERE `id` = '692108' LIMIT 1;
+10/12/2018 21:25:10 1.8362641334534: SELECT * from oldbk.user_location where user_id='692108' ;
+10/12/2018 21:25:11 1.3343880176544: SELECT * from oldbk.user_location where user_id='692108' ;
+10/12/2018 21:25:15 4.0564751625061: SELECT * from oldbk.user_location where user_id='692108' ;
+10/12/2018 21:25:18 2.9492969512939: SELECT * from oldbk.user_location where user_id='692108' ;
+10/12/2018 21:25:20 2.3408100605011: SELECT * from oldbk.user_location where user_id='692108' ;
+10/12/2018 21:25:31 10.13560795784: SELECT * from oldbk.user_location where user_id='692108' ;
+10/12/2018 21:25:33 2.8569660186768: SELECT * from oldbk.user_location where user_id='692108' ;
+10/12/2018 21:25:36 1.053729057312: SELECT * FROM oldbk.friends WHERE type = 2 AND owner = 692108

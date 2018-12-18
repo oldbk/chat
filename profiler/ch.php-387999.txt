@@ -1,0 +1,19 @@
+11/10/2018 23:58:32 2.2737610340118: SELECT * FROM `users` WHERE `id` = '387999' LIMIT 1;
+13/10/2018 20:17:15 2.9279918670654: SELECT * FROM `users` WHERE `id` = '387999' LIMIT 1;
+15/10/2018 23:58:29 2.7979187965393: SELECT * FROM `users` WHERE `id` = '387999' LIMIT 1;
+23/10/2018 23:58:32 1.5668568611145: SELECT UNIX_TIMESTAMP(`cdate`) as tt,text,id FROM oldbk.chat where ((id > 413177439 AND id <= 413177797)) and (city=1 or city=0) and (room='8' or room='-1' ) order by id ASC
+24/10/2018 23:58:29 1.4988088607788: UPDATE users set ldate='1540414708' where id=387999; 
+24/10/2018 23:58:31 1.976567029953: select align,u.id,exp,klan,level,login,battle,deal,odate,u.id_grup as id_grup,u.room as room,u.podarokAD as podarokAD, u.ruines as ruines,u.hidden as iluz,slp,hiddenlog,u.naim,unikstatus,
+			(SELECT `id` FROM `effects` WHERE (`type` = 11 OR `type` = 12 OR `type` = 13 OR `type` = 14) AND `owner` = u.id LIMIT 1) as trv,deal FROM  `users` as u
+		    	WHERE (u.`odate` >= 1540414610 OR u.`in_tower` = 1 OR u.`in_tower` = 2 OR u.`in_tower` = 15) AND u.`room` = 8 ORDER by deal DESC, `u`.`login`;
+30/10/2018 23:58:33 0.91644787788391: SELECT * FROM `users` WHERE `id` = '387999' LIMIT 1;
+03/11/2018 23:58:34 1.8405239582062: SELECT * FROM `users` WHERE `id` = '387999' LIMIT 1;
+04/11/2018 21:35:28 1.6076638698578: SELECT * FROM oldbk.autoanswer WHERE id = 387999 AND status = 1
+04/11/2018 23:58:34 1.3454961776733: SELECT * FROM `users` WHERE `id` = '387999' LIMIT 1;
+07/11/2018 23:58:31 0.97195482254028: SELECT * FROM `users` WHERE `id` = '387999' LIMIT 1;
+07/11/2018 23:58:33 1.5656228065491: select * from users_clons  where bot_room=8 and bot_online > 0 ORDER by login;
+11/11/2018 23:58:34 1.8363790512085: SELECT * FROM `users` WHERE `id` = '387999' LIMIT 1;
+13/11/2018 23:58:33 2.2127931118011: SELECT * FROM `users` WHERE `id` = '387999' LIMIT 1;
+18/11/2018 23:58:31 2.2596068382263: SELECT * FROM `users` WHERE `id` = '387999' LIMIT 1;
+22/11/2018 23:58:32 1.0980610847473: SELECT * FROM `users` WHERE `id` = '387999' LIMIT 1;
+04/12/2018 23:58:34 1.5636069774628: UPDATE users set ldate='1543957112' where id=387999; 

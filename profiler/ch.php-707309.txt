@@ -1,0 +1,6 @@
+13/10/2018 16:02:32 1.0058188438416: select align,u.id,exp,klan,level,login AS login,battle,deal,odate,u.id_grup as id_grup,u.room as room,u.podarokAD as podarokAD, u.ruines as ruines,u.id_city as id_city,u.hidden as iluz,slp,u.naim,unikstatus,
+				(SELECT `id` FROM oldbk.effects WHERE (`type` = 11 OR `type` = 12 OR `type` = 13 OR `type` = 14) AND `owner` = u.id LIMIT 1) as trv,deal FROM  oldbk.`users` as u
+						    WHERE (u.`odate` >= 1539435658) AND  (u.`klan` = 'SemB'  )  AND id_city = 0
+					ORDER by id_city  ASC , login
+				
+13/10/2018 16:02:55 1.2533049583435: UPDATE `users` SET `odate` = 1539435774 WHERE `id` = 707309;

@@ -1,0 +1,1 @@
+30/10/2018 21:42:48 1.5772449970245: INSERT INTO users_fortune_stats (`owner`,`date`,`status`,`itemproto`,`itemcount`) VALUES(655138,1540924967,0,120,1)

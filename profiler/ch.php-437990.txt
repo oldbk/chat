@@ -1,0 +1,5 @@
+23/10/2018 20:39:33 1.3130350112915: SELECT * FROM `users` WHERE `id` = '437990' LIMIT 1;
+01/12/2018 15:53:39 1.2437798976898: SELECT * from oldbk.user_location where user_id='437990' ;
+01/12/2018 23:58:33 1.2781980037689: SELECT * FROM `users` WHERE `id` = '437990' LIMIT 1;
+01/12/2018 23:58:35 1.9879281520844: SELECT UNIX_TIMESTAMP(`cdate`) as tt,text,id FROM oldbk.chat where ((id > 427373340 AND id <= 427373495)) and (city=1 or city=0) and (room='8' or room='-1' ) order by id ASC
+07/12/2018 23:58:35 2.8153700828552: SELECT * FROM `users` WHERE `id` = '437990' LIMIT 1;

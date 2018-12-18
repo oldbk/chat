@@ -1,0 +1,17 @@
+06/10/2018 23:58:30 1.5880720615387: UPDATE users set ldate='1538859508' where id=260838; 
+11/10/2018 23:58:32 1.0698659420013: SELECT * FROM `users` WHERE `id` = '260838' LIMIT 1;
+13/10/2018 16:02:23 0.99575400352478: SELECT * FROM `users` WHERE `id` = '260838' LIMIT 1;
+13/10/2018 23:58:28 1.1447439193726: UPDATE users set ldate='1539464307' where id=260838; 
+17/10/2018 23:58:32 1.3016481399536: SELECT max(id) as maxid FROM oldbk.chat
+18/10/2018 23:58:31 1.1660690307617: SELECT * FROM `users` WHERE `id` = '260838' LIMIT 1;
+19/10/2018 23:43:02 1.8562631607056: select align,u.id,exp,klan,level,login,battle,deal,odate,u.id_grup as id_grup,u.room as room,u.podarokAD as podarokAD, u.ruines as ruines,u.hidden as iluz,slp,hiddenlog,u.naim,unikstatus,
+			(SELECT `id` FROM `effects` WHERE (`type` = 11 OR `type` = 12 OR `type` = 13 OR `type` = 14) AND `owner` = u.id LIMIT 1) as trv,deal FROM  `users` as u
+		    	WHERE (u.`odate` >= 1539981691 OR u.`in_tower` = 1 OR u.`in_tower` = 2 OR u.`in_tower` = 15) AND u.`room` = 26 ORDER by deal DESC, `u`.`login`;
+19/10/2018 23:58:31 2.4052829742432: SELECT * FROM `users` WHERE `id` = '260838' LIMIT 1;
+24/10/2018 00:08:38 0.96326804161072: UPDATE users set ldate='1540328917' where id=260838; 
+24/10/2018 01:31:24 1.4294950962067: UPDATE `users` SET `odate` = 1540333883 WHERE `id` = 260838;
+24/10/2018 13:35:22 0.99392199516296: SELECT * FROM `users` WHERE `id` = '260838' LIMIT 1;
+27/10/2018 23:58:32 2.0721590518951: UPDATE `users` SET `odate` = 1540673909 WHERE `id` = 260838;
+07/11/2018 23:58:33 1.5125348567963: SELECT * FROM `users` WHERE `id` = '260838' LIMIT 1;
+09/11/2018 23:58:30 1.019788980484: SELECT * FROM `users` WHERE `id` = '260838' LIMIT 1;
+09/11/2018 23:58:32 1.9258580207825: SELECT * FROM oldbk.friends WHERE type = 2 AND owner = 260838

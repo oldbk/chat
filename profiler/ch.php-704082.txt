@@ -1,0 +1,2 @@
+24/10/2018 13:36:02 1.0373198986053: SELECT max(id) as maxid FROM oldbk.chat
+19/11/2018 06:11:34 1.4068470001221: SELECT * from oldbk.user_location where user_id='704082' ;

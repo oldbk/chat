@@ -1,0 +1,17 @@
+15/10/2018 23:58:27 0.99701404571533: UPDATE users set ldate='1539637106' where id=690383; 
+15/10/2018 23:58:29 1.9676120281219: select align,u.id,exp,klan,level,login,battle,deal,odate,u.id_grup as id_grup,u.room as room,u.podarokAD as podarokAD, u.ruines as ruines,u.hidden as iluz,slp,hiddenlog,u.naim,unikstatus,
+			(SELECT `id` FROM `effects` WHERE (`type` = 11 OR `type` = 12 OR `type` = 13 OR `type` = 14) AND `owner` = u.id LIMIT 1) as trv,deal FROM  `users` as u
+		    	WHERE (u.`odate` >= 1539637017 OR u.`in_tower` = 1 OR u.`in_tower` = 2 OR u.`in_tower` = 15) AND u.`room` = 8 ORDER by deal DESC, `u`.`login`;
+19/10/2018 23:58:31 1.9866621494293: SELECT * FROM `users` WHERE `id` = '690383' LIMIT 1;
+24/10/2018 01:31:12 1.3067982196808: UPDATE users set ldate='1540333871' where id=690383; 
+24/10/2018 13:36:02 1.6112170219421: UPDATE users set ldate='1540377360' where id=690383; 
+29/10/2018 19:12:18 1.0660300254822: SELECT * FROM `users` WHERE `id` = '690383' LIMIT 1;
+30/10/2018 15:39:08 1.1736509799957: UPDATE users set ldate='1540903146' where id=690383; 
+31/10/2018 23:58:37 1.2357470989227: SELECT * FROM `users` WHERE `id` = '690383' LIMIT 1;
+08/11/2018 23:58:34 1.0709390640259: SELECT * FROM `users` WHERE `id` = '690383' LIMIT 1;
+09/11/2018 23:58:32 2.3004689216614: SELECT * FROM `users` WHERE `id` = '690383' LIMIT 1;
+13/11/2018 23:58:33 1.9089670181274: SELECT * FROM `users` WHERE `id` = '690383' LIMIT 1;
+26/11/2018 19:38:34 1.3255481719971: SELECT * FROM `users` WHERE `id` = '690383' LIMIT 1;
+04/12/2018 23:58:34 1.0998539924622: SELECT * from oldbk.user_location where user_id='690383' ;
+05/12/2018 23:58:35 1.4140038490295: SELECT * FROM `users` WHERE `id` = '690383' LIMIT 1;
+10/12/2018 14:19:10 3.0153040885925: SELECT * from oldbk.user_location where user_id='690383' ;

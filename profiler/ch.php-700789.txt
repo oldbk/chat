@@ -1,0 +1,7 @@
+20/10/2018 23:58:27 1.0557401180267: UPDATE `users` SET `odate` = 1540069106 WHERE `id` = 700789;
+24/10/2018 00:09:26 1.1992440223694: select align,u.id,exp,klan,level,login,battle,deal,odate,u.id_grup as id_grup,u.room as room,u.podarokAD as podarokAD, u.ruines as ruines,u.hidden as iluz,slp,hiddenlog,u.naim,unikstatus,
+			(SELECT `id` FROM `effects` WHERE (`type` = 11 OR `type` = 12 OR `type` = 13 OR `type` = 14) AND `owner` = u.id LIMIT 1) as trv,deal FROM  `users` as u
+		    	WHERE (u.`odate` >= 1540328875 OR u.`in_tower` = 1 OR u.`in_tower` = 2 OR u.`in_tower` = 15) AND u.`room` = 200 ORDER by deal DESC, `u`.`login`;
+08/11/2018 23:33:48 1.1577990055084: SELECT max(id) as maxid FROM oldbk.chat
+08/12/2018 23:58:34 3.0376121997833: UPDATE `users` SET `odate` = 1544302710 WHERE `id` = 700789;
+09/12/2018 23:58:35 1.5261888504028: SELECT * FROM `users` WHERE `id` = '700789' LIMIT 1;

@@ -1,0 +1,13 @@
+13/10/2018 20:17:13 1.7227079868317: UPDATE `users` SET `odate` = 1539451031 WHERE `id` = 7324;
+13/10/2018 23:58:30 1.1802489757538: SELECT * FROM `users` WHERE `id` = '7324' LIMIT 1;
+16/10/2018 23:58:31 1.4096839427948: select * from users_clons  where bot_room=45 and bot_online > 0 ORDER by login;
+24/10/2018 00:08:45 1.2374730110168: SELECT * FROM `users` WHERE `id` = '7324' LIMIT 1;
+24/10/2018 01:32:55 1.4722280502319: SELECT * FROM `users` WHERE `id` = '7324' LIMIT 1;
+24/10/2018 23:58:29 1.5642790794373: SELECT max(id) as maxid FROM oldbk.chat
+24/10/2018 23:58:31 1.9754810333252: SELECT UNIX_TIMESTAMP(`cdate`) as tt,text,id FROM oldbk.chat where ((id > 413593651 AND id <= 413594017)) and (city=1 or city=0) and (room='4986870' or room='-1' ) order by id ASC
+28/10/2018 13:50:04 1.2419681549072: UPDATE users set ldate='1540723802' where id=7324; 
+09/11/2018 23:58:30 1.3079748153687: SELECT * FROM `users` WHERE `id` = '7324' LIMIT 1;
+14/11/2018 22:42:18 1.4759011268616: select align,u.id,exp,klan,level,login,battle,deal,odate,u.id_grup as id_grup,u.room as room,u.podarokAD as podarokAD, u.ruines as ruines,u.hidden as iluz,slp,hiddenlog,u.naim,unikstatus,
+			(SELECT `id` FROM `effects` WHERE (`type` = 11 OR `type` = 12 OR `type` = 13 OR `type` = 14) AND `owner` = u.id LIMIT 1) as trv,deal FROM  `users` as u
+		    	WHERE (u.`odate` >= 1542224447 OR u.`in_tower` = 1 OR u.`in_tower` = 2 OR u.`in_tower` = 15) AND u.`room` = 5006248 ORDER by deal DESC, `u`.`login`;
+27/11/2018 23:58:33 2.858421087265: SELECT * FROM `users` WHERE `id` = '7324' LIMIT 1;

@@ -1,0 +1,5 @@
+10/12/2018 21:25:20 11.097692012787: SELECT UNIX_TIMESTAMP(`cdate`) as tt,text,id FROM oldbk.chat where (UNIX_TIMESTAMP(`cdate`) > 1544466189) and (city=1 or city=0) and (room='7029534' or room='-1' ) order by id ASC
+10/12/2018 21:25:24 3.4047348499298: SELECT * from oldbk.user_location where user_id='157662' ;
+10/12/2018 21:25:25 1.1734259128571: SELECT * from oldbk.user_location where user_id='157662' ;
+10/12/2018 21:25:33 8.2598388195038: SELECT * from oldbk.user_location where user_id='157662' ;
+11/12/2018 23:14:32 1.1308300495148: SELECT max(id) as maxid FROM oldbk.chat

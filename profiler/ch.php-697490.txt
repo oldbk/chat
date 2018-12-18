@@ -1,0 +1,6 @@
+12/10/2018 23:58:28 1.1320819854736: UPDATE users set ldate='1539377907' where id=697490; 
+12/10/2018 23:58:29 1.0897521972656: select * from oldbk.new_updates where  id > 409 and  hide=0 order by top asc , cdate desc limit 10; 
+13/10/2018 18:23:08 0.99824404716492: UPDATE users set ldate='1539444187' where id=697490; 
+13/10/2018 23:58:30 2.9316780567169: SELECT * FROM `users` WHERE `id` = '697490' LIMIT 1;
+17/10/2018 19:58:03 1.8369500637054: SELECT * FROM `users` WHERE `id` = '697490' LIMIT 1;
+02/11/2018 23:58:33 1.1047661304474: UPDATE `users` SET `odate` = 1541192312 WHERE `id` = 697490;

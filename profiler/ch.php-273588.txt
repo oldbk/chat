@@ -1,0 +1,13 @@
+11/10/2018 23:58:32 2.4934849739075: SELECT * FROM `users` WHERE `id` = '273588' LIMIT 1;
+29/10/2018 23:58:32 1.6944320201874: SELECT * FROM `users` WHERE `id` = '273588' LIMIT 1;
+06/11/2018 23:58:33 1.7658200263977: SELECT * FROM `users` WHERE `id` = '273588' LIMIT 1;
+10/11/2018 23:58:33 2.9808728694916: select align,u.id,exp,klan,level,login,battle,deal,odate,u.id_grup as id_grup,u.room as room,u.podarokAD as podarokAD, u.ruines as ruines,u.hidden as iluz,slp,hiddenlog,u.naim,unikstatus,
+			(SELECT `id` FROM `effects` WHERE (`type` = 11 OR `type` = 12 OR `type` = 13 OR `type` = 14) AND `owner` = u.id LIMIT 1) as trv,deal FROM  `users` as u
+		    	WHERE (u.`odate` >= 1541883420 OR u.`in_tower` = 1 OR u.`in_tower` = 2 OR u.`in_tower` = 15) AND u.`room` = 999 ORDER by deal DESC, `u`.`login`;
+14/11/2018 22:42:18 0.94897699356079: select align,u.id,exp,klan,level,login,battle,deal,odate,u.id_grup as id_grup,u.room as room,u.podarokAD as podarokAD, u.ruines as ruines,u.hidden as iluz,slp,hiddenlog,u.naim,unikstatus,
+			(SELECT `id` FROM `effects` WHERE (`type` = 11 OR `type` = 12 OR `type` = 13 OR `type` = 14) AND `owner` = u.id LIMIT 1) as trv,deal FROM  `users` as u
+		    	WHERE (u.`odate` >= 1542224447 OR u.`in_tower` = 1 OR u.`in_tower` = 2 OR u.`in_tower` = 15) AND u.`room` = 999 ORDER by deal DESC, `u`.`login`;
+24/11/2018 23:58:34 1.9655539989471: SELECT * from oldbk.user_location where user_id='273588' ;
+01/12/2018 00:05:03 1.2116758823395: SELECT * FROM `users` WHERE `id` = '273588' LIMIT 1;
+01/12/2018 23:58:35 1.2189202308655: SELECT * FROM `users` WHERE `id` = '273588' LIMIT 1;
+03/12/2018 23:58:33 2.0014779567719: SELECT * FROM oldbk.autoanswer WHERE id = 273588 AND status = 1

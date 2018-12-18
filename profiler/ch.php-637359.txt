@@ -1,0 +1,4 @@
+08/12/2018 12:24:04 1.6184930801392: SELECT * FROM `users` WHERE `id` = '637359' LIMIT 1;
+10/12/2018 21:25:30 20.632884025574: SELECT * FROM oldbk.autoanswer WHERE id = 637359 AND status = 1
+10/12/2018 21:25:31 1.0517551898956: SELECT max(id) as maxid FROM oldbk.chat
+10/12/2018 21:25:33 0.90235280990601: SELECT * from oldbk.user_location where user_id='637359' ;

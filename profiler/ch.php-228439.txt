@@ -1,0 +1,1 @@
+20/11/2018 23:58:33 1.5359289646149: SELECT * from oldbk.user_location where user_id='228439' ;

@@ -1,0 +1,2 @@
+13/10/2018 20:17:15 1.9606790542603: select * from users_clons  where bot_room=999 and bot_online > 0 ORDER by login;
+02/11/2018 23:58:35 1.5574421882629: SELECT * FROM `users` WHERE `id` = '359777' LIMIT 1;

@@ -1,0 +1,15 @@
+22/10/2018 21:11:27 1.3106160163879: UPDATE users set ldate='1540231886' where id=707096; 
+24/10/2018 00:09:26 1.3670890331268: select align,u.id,exp,klan,level,login,battle,deal,odate,u.id_grup as id_grup,u.room as room,u.podarokAD as podarokAD, u.ruines as ruines,u.hidden as iluz,slp,hiddenlog,u.naim,unikstatus,
+			(SELECT `id` FROM `effects` WHERE (`type` = 11 OR `type` = 12 OR `type` = 13 OR `type` = 14) AND `owner` = u.id LIMIT 1) as trv,deal FROM  `users` as u
+		    	WHERE (u.`odate` >= 1540328875 OR u.`in_tower` = 1 OR u.`in_tower` = 2 OR u.`in_tower` = 15) AND u.`room` = 4985953 ORDER by deal DESC, `u`.`login`;
+31/10/2018 23:58:37 1.2851009368896: SELECT * FROM `users` WHERE `id` = '707096' LIMIT 1;
+02/11/2018 23:58:33 1.0872189998627: UPDATE `users` SET `odate` = 1541192312 WHERE `id` = 707096;
+04/11/2018 23:58:34 1.0974369049072: SELECT * FROM `users` WHERE `id` = '707096' LIMIT 1;
+14/11/2018 22:42:18 1.2660739421844: SELECT max(id) as maxid FROM oldbk.chat
+17/11/2018 23:58:33 2.9229719638824: SELECT * FROM `users` WHERE `id` = '707096' LIMIT 1;
+10/12/2018 21:25:20 11.820907831192: SELECT * FROM `users` WHERE `id` = '707096' LIMIT 1;
+10/12/2018 21:25:23 3.3253331184387: SELECT * FROM `users` WHERE `id` = '707096' LIMIT 1;
+10/12/2018 21:25:25 1.8914320468903: UPDATE users set ldate='1544466323' where id=707096; 
+10/12/2018 21:25:31 6.4863457679749: select align,u.id,exp,klan,level,login,battle,deal,odate,u.id_grup as id_grup,u.room as room,u.podarokAD as podarokAD, u.ruines as ruines,u.hidden as iluz,slp,hiddenlog,u.naim,unikstatus,
+			(SELECT `id` FROM `effects` WHERE (`type` = 11 OR `type` = 12 OR `type` = 13 OR `type` = 14) AND `owner` = u.id LIMIT 1) as trv,deal FROM  `users` as u
+		    	WHERE (u.`odate` >= 1544466235 OR u.`in_tower` = 1 OR u.`in_tower` = 2 OR u.`in_tower` = 15) AND u.`room` = 8 ORDER by deal DESC, `u`.`login`;

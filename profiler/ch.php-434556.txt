@@ -1,0 +1,1 @@
+01/12/2018 23:58:35 1.9739949703217: SELECT * FROM oldbk.autoanswer WHERE id = 434556 AND status = 1

@@ -1,0 +1,11 @@
+10/10/2018 23:58:28 1.120069026947: UPDATE `users` SET `odate` = 1539205107 WHERE `id` = 342604;
+18/10/2018 23:58:31 1.9903590679169: SELECT * FROM `ruines_map` WHERE id = 240620
+24/10/2018 13:35:36 1.7929248809814: SELECT `name`, `mname` FROM `oldbk`.`chanels` WHERE `klan`='RMiB' AND `user` = '342604';
+24/10/2018 23:58:29 1.2747359275818: UPDATE users set ldate='1540414708' where id=342604; 
+24/10/2018 23:58:31 1.9804708957672: select align,u.id,exp,klan,level,login,battle,deal,odate,u.id_grup as id_grup,u.room as room,u.podarokAD as podarokAD, u.ruines as ruines,u.hidden as iluz,slp,hiddenlog,u.naim,unikstatus,
+			(SELECT `id` FROM `effects` WHERE (`type` = 11 OR `type` = 12 OR `type` = 13 OR `type` = 14) AND `owner` = u.id LIMIT 1) as trv,deal FROM  `users` as u
+		    	WHERE (u.`odate` >= 1540414619 OR u.`in_tower` = 1 OR u.`in_tower` = 2 OR u.`in_tower` = 15) AND u.`room` = 1061 ORDER by deal DESC, `u`.`login`;
+07/11/2018 23:58:33 2.2845730781555: SELECT * FROM `users` WHERE `id` = '342604' LIMIT 1;
+14/11/2018 23:58:32 0.9952290058136: UPDATE `users` SET `odate` = 1542229111 WHERE `id` = 342604;
+26/11/2018 23:58:33 1.4037721157074: SELECT * FROM `users` WHERE `id` = '342604' LIMIT 1;
+12/12/2018 20:54:03 1.4436681270599: SELECT * FROM `users` WHERE `id` = '342604' LIMIT 1;

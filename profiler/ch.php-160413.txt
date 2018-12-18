@@ -1,0 +1,11 @@
+15/11/2018 23:58:34 2.7679769992828: SELECT * FROM `users` WHERE `id` = '160413' LIMIT 1;
+16/11/2018 23:58:32 1.2445960044861: SELECT * FROM `users` WHERE `id` = '160413' LIMIT 1;
+26/11/2018 19:38:34 1.383241891861: SELECT * FROM `users` WHERE `id` = '160413' LIMIT 1;
+26/11/2018 23:58:33 1.876277923584: SELECT * FROM `users` WHERE `id` = '160413' LIMIT 1;
+27/11/2018 23:58:33 2.8863639831543: SELECT * FROM `users` WHERE `id` = '160413' LIMIT 1;
+08/12/2018 12:24:04 0.99066209793091: SELECT * FROM `users` WHERE `id` = '160413' LIMIT 1;
+08/12/2018 23:58:34 1.9144070148468: SELECT * FROM `users` WHERE `id` = '160413' LIMIT 1;
+10/12/2018 21:25:25 16.591080188751: select align,u.id,exp,klan,level,login,battle,deal,odate,u.id_grup as id_grup,u.room as room,u.podarokAD as podarokAD, u.ruines as ruines,u.hidden as iluz,slp,hiddenlog,u.naim,unikstatus,
+			(SELECT `id` FROM `effects` WHERE (`type` = 11 OR `type` = 12 OR `type` = 13 OR `type` = 14) AND `owner` = u.id LIMIT 1) as trv,deal FROM  `users` as u
+		    	WHERE (u.`odate` >= 1544466218 OR u.`in_tower` = 1 OR u.`in_tower` = 2 OR u.`in_tower` = 15) AND u.`room` = 1 ORDER by deal DESC, `u`.`login`;
+10/12/2018 21:25:33 8.4057638645172: select * from users_clons  where bot_room=1 and bot_online > 0 ORDER by login;

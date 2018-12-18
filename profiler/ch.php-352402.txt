@@ -1,0 +1,1 @@
+03/12/2018 23:58:33 2.0312988758087: SELECT UNIX_TIMESTAMP(`cdate`) as tt,text,id FROM oldbk.chat where ((id > 428270120 AND id <= 428270467)) and (city=1 or city=0) and (room='8' or room='-1' ) order by id ASC

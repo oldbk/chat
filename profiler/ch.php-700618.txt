@@ -1,0 +1,19 @@
+13/10/2018 18:23:08 1.4777381420135: UPDATE users set ldate='1539444187' where id=700618; 
+19/10/2018 23:58:31 3.2315309047699: SELECT * FROM `users` WHERE `id` = '700618' LIMIT 1;
+24/10/2018 00:09:26 1.2083320617676: select align,u.id,exp,klan,level,login,battle,deal,odate,u.id_grup as id_grup,u.room as room,u.podarokAD as podarokAD, u.ruines as ruines,u.hidden as iluz,slp,hiddenlog,u.naim,unikstatus,
+			(SELECT `id` FROM `effects` WHERE (`type` = 11 OR `type` = 12 OR `type` = 13 OR `type` = 14) AND `owner` = u.id LIMIT 1) as trv,deal FROM  `users` as u
+		    	WHERE (u.`odate` >= 1540328875 OR u.`in_tower` = 1 OR u.`in_tower` = 2 OR u.`in_tower` = 15) AND u.`room` = 4986030 ORDER by deal DESC, `u`.`login`;
+24/10/2018 01:32:46 1.0392701625824: UPDATE `users` SET `odate` = 1540333965 WHERE `id` = 700618;
+26/10/2018 23:58:33 2.4337060451508: SELECT * FROM `users` WHERE `id` = '700618' LIMIT 1;
+28/10/2018 16:48:27 1.4067001342773: SELECT * FROM oldbk.friends WHERE type = 2 AND owner = 700618
+03/11/2018 23:58:34 3.5245590209961: SELECT * from oldbk.user_location where user_id='700618' ;
+10/11/2018 23:58:33 1.8258209228516: SELECT * FROM `users` WHERE `id` = '700618' LIMIT 1;
+13/11/2018 23:58:33 1.6355330944061: SELECT * FROM `users` WHERE `id` = '700618' LIMIT 1;
+20/11/2018 23:58:33 0.91197800636292: SELECT * FROM `users` WHERE `id` = '700618' LIMIT 1;
+05/12/2018 22:26:49 0.90957808494568: SELECT * FROM `users` WHERE `id` = '700618' LIMIT 1;
+10/12/2018 21:25:07 1.4034998416901: SELECT * from oldbk.user_location where user_id='700618' ;
+10/12/2018 21:25:08 0.90645718574524: SELECT * from oldbk.user_location where user_id='700618' ;
+10/12/2018 21:25:30 22.136901140213: SELECT * from oldbk.user_location where user_id='700618' ;
+10/12/2018 21:25:31 1.0514209270477: SELECT * from oldbk.user_location where user_id='700618' ;
+10/12/2018 21:25:34 1.9564249515533: SELECT * from oldbk.user_location where user_id='700618' ;
+10/12/2018 21:25:37 1.2020628452301: SELECT * from oldbk.user_location where user_id='700618' ;

@@ -1,0 +1,22 @@
+03/10/2018 19:12:48 1.4899678230286: select * from users where id = 424604 LIMIT 1;
+11/10/2018 23:58:32 3.354425907135: SELECT max(id) as maxid FROM oldbk.chat
+17/10/2018 19:58:03 1.9251370429993: UPDATE `users` SET `odate` = 1539795481 WHERE `id` = 424604;
+18/10/2018 23:58:33 1.7544379234314: UPDATE users set ldate='1539896311' where id=424604; 
+19/10/2018 16:50:08 1.1505110263824: SELECT * FROM `users` WHERE `id` = '424604' LIMIT 1;
+20/10/2018 06:22:04 1.4067318439484: select align,u.id,exp,klan,level,login AS login,battle,deal,odate,u.id_grup as id_grup,u.room as room,u.podarokAD as podarokAD, u.ruines as ruines,u.id_city as id_city,u.hidden as iluz,slp,u.naim,unikstatus,
+				(SELECT `id` FROM oldbk.effects WHERE (`type` = 11 OR `type` = 12 OR `type` = 13 OR `type` = 14) AND `owner` = u.id LIMIT 1) as trv,deal FROM  oldbk.`users` as u
+						    WHERE (u.`odate` >= 1540005633) AND  (u.`klan` = 'Diablo'  )  AND id_city = 0
+					ORDER by id_city  ASC , login
+				
+22/10/2018 23:58:29 1.2026281356812: UPDATE `users` SET `odate` = 1540241907 WHERE `id` = 424604;
+23/10/2018 23:58:32 1.3352241516113: UPDATE `users` SET `odate` = 1540328311 WHERE `id` = 424604;
+24/10/2018 13:36:02 1.0154302120209: SELECT * FROM `users` WHERE `id` = '424604' LIMIT 1;
+04/11/2018 23:58:34 2.7398021221161: SELECT `name`, `mname` FROM `oldbk`.`chanels` WHERE `klan`='Diablo' AND `user` = '424604';
+08/11/2018 23:58:34 1.1126770973206: SELECT * FROM `users` WHERE `id` = '424604' LIMIT 1;
+17/11/2018 09:37:49 3.0186369419098: SELECT UNIX_TIMESTAMP(`cdate`) as tt,text,id FROM oldbk.chat where ((id > 422243728 AND id <= 422243812)) and (city=1 or city=0) and (room='5008592' or room='-1' ) order by id ASC
+18/11/2018 23:58:29 1.0978310108185: UPDATE users set ldate='1542574708' where id=424604; 
+20/11/2018 23:58:33 1.5495419502258: SELECT * from oldbk.user_location where user_id='424604' ;
+27/11/2018 23:58:33 2.5947968959808: SELECT * FROM `users` WHERE `id` = '424604' LIMIT 1;
+01/12/2018 23:58:35 1.7722101211548: SELECT * FROM `users` WHERE `id` = '424604' LIMIT 1;
+04/12/2018 22:06:02 0.96547985076904: select * from users where id = 424604 LIMIT 1;
+11/12/2018 23:58:30 1.1098690032959: SELECT * FROM `users` WHERE `id` = '424604' LIMIT 1;

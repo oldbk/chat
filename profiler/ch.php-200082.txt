@@ -1,0 +1,4 @@
+10/12/2018 21:25:16 6.0438649654388: SELECT * FROM `users` WHERE `id` = '200082' LIMIT 1;
+10/12/2018 21:25:20 3.609680891037: SELECT * FROM oldbk.autoanswer WHERE id = 200082 AND status = 1
+10/12/2018 21:25:31 10.769385099411: SELECT UNIX_TIMESTAMP(`cdate`) as tt,text,id FROM oldbk.chat where ((id > 431407228 AND id <= 431407232)) and (city=1 or city=0) and (room='8' or room='-1' ) order by id ASC
+10/12/2018 21:25:34 3.6116058826447: SELECT * from oldbk.user_location where user_id='200082' ;

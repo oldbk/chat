@@ -1,0 +1,2 @@
+29/11/2018 23:58:31 0.948734998703: select * from user_event_rating where is_end = 1 and is_reward = 0 and user_id = 673181
+29/11/2018 23:58:33 1.9856140613556: select * from event_rating where is_enabled = 1

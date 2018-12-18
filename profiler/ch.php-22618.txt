@@ -1,0 +1,6 @@
+15/10/2018 23:58:27 0.97460794448853: UPDATE users set ldate='1539637106' where id=22618; 
+15/10/2018 23:58:29 1.9449069499969: SELECT * FROM oldbk.friends WHERE type = 2 AND owner = 22618
+10/12/2018 21:25:28 20.916980028152: SELECT * from oldbk.user_location where user_id='22618' ;
+10/12/2018 21:25:34 6.1588640213013: SELECT * from oldbk.user_location where user_id='22618' ;
+10/12/2018 21:25:36 1.0531821250916: SELECT * from oldbk.user_location where user_id='22618' ;
+10/12/2018 21:25:37 0.90562510490417: SELECT * from oldbk.user_location where user_id='22618' ;

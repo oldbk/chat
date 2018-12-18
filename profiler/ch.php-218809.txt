@@ -1,0 +1,1 @@
+03/12/2018 23:58:33 2.0015408992767: SELECT * FROM oldbk.friends WHERE type = 2 AND owner = 218809

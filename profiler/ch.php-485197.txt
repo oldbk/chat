@@ -1,0 +1,13 @@
+16/10/2018 23:58:31 1.4890699386597: select align,u.id,exp,klan,level,login,battle,deal,odate,u.id_grup as id_grup,u.room as room,u.podarokAD as podarokAD, u.ruines as ruines,u.hidden as iluz,slp,hiddenlog,u.naim,unikstatus,
+			(SELECT `id` FROM `effects` WHERE (`type` = 11 OR `type` = 12 OR `type` = 13 OR `type` = 14) AND `owner` = u.id LIMIT 1) as trv,deal FROM  `users` as u
+		    	WHERE (u.`odate` >= 1539723419 OR u.`in_tower` = 1 OR u.`in_tower` = 2 OR u.`in_tower` = 15) AND u.`room` = 72 ORDER by deal DESC, `u`.`login`;
+19/10/2018 23:58:29 1.8288588523865: SELECT * FROM `users` WHERE `id` = '485197' LIMIT 1;
+19/10/2018 23:58:31 1.9578459262848: select * from users_clons  where bot_room=8 and bot_online > 0 ORDER by login;
+24/10/2018 01:32:55 1.2188160419464: UPDATE users set ldate='1540333974' where id=485197; 
+27/10/2018 23:58:32 1.0297808647156: SELECT * FROM `users` WHERE `id` = '485197' LIMIT 1;
+28/10/2018 23:58:29 0.92370200157166: SELECT * FROM `users` WHERE `id` = '485197' LIMIT 1;
+04/11/2018 23:58:34 1.2649919986725: SELECT * FROM `users` WHERE `id` = '485197' LIMIT 1;
+13/11/2018 23:58:33 1.0259521007538: SELECT * FROM `users` WHERE `id` = '485197' LIMIT 1;
+14/11/2018 22:42:18 1.0634078979492: SELECT max(id) as maxid FROM oldbk.chat
+23/11/2018 23:58:31 1.5554921627045: SELECT * from oldbk.user_location where user_id='485197' ;
+03/12/2018 23:58:33 2.0043039321899: SELECT * FROM oldbk.autoanswer WHERE id = 485197 AND status = 1

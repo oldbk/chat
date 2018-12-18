@@ -1,0 +1,11 @@
+24/10/2018 23:58:29 1.8819870948792: UPDATE users set ldate='1540414708' where id=422048; 
+09/11/2018 23:58:30 0.96371793746948: SELECT * FROM `users` WHERE `id` = '422048' LIMIT 1;
+09/11/2018 23:58:32 1.9253289699554: select * from users_clons  where bot_room=8 and bot_online > 0 ORDER by login;
+11/11/2018 23:58:34 2.3810739517212: SELECT * FROM `users` WHERE `id` = '422048' LIMIT 1;
+08/12/2018 23:58:34 1.0107860565186: SELECT * FROM `users` WHERE `id` = '422048' LIMIT 1;
+10/12/2018 21:25:08 1.8462719917297: SELECT * from oldbk.user_location where user_id='422048' ;
+10/12/2018 21:25:11 3.1720468997955: SELECT * from oldbk.user_location where user_id='422048' ;
+10/12/2018 21:25:13 1.9032030105591: SELECT * from oldbk.user_location where user_id='422048' ;
+10/12/2018 21:25:15 2.1530549526215: SELECT * from oldbk.user_location where user_id='422048' ;
+10/12/2018 21:25:20 4.2430729866028: SELECT * from oldbk.user_location where user_id='422048' ;
+10/12/2018 21:25:33 13.472505807877: SELECT * from oldbk.user_location where user_id='422048' ;

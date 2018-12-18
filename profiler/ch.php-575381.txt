@@ -1,0 +1,16 @@
+13/10/2018 20:17:15 2.9065959453583: SELECT * FROM `users` WHERE `id` = '575381' LIMIT 1;
+24/10/2018 00:09:26 1.8413639068604: SELECT * FROM `users` WHERE `id` = '575381' LIMIT 1;
+29/10/2018 23:58:32 1.3617370128632: SELECT * FROM `users` WHERE `id` = '575381' LIMIT 1;
+06/11/2018 20:43:03 1.1154420375824: UPDATE users set ldate='1541526182' where id=575381; 
+10/11/2018 23:58:33 1.7353920936584: SELECT * FROM `users` WHERE `id` = '575381' LIMIT 1;
+01/12/2018 00:05:03 1.2411270141602: UPDATE users set ldate='1543611902' where id=575381; 
+01/12/2018 23:58:33 1.1059401035309: SELECT * FROM `users` WHERE `id` = '575381' LIMIT 1;
+03/12/2018 19:36:18 1.5118761062622: SELECT * FROM `users` WHERE `id` = '575381' LIMIT 1;
+08/12/2018 23:58:34 1.6586802005768: SELECT * FROM `users` WHERE `id` = '575381' LIMIT 1;
+09/12/2018 23:58:35 2.4000461101532: SELECT * FROM `users` WHERE `id` = '575381' LIMIT 1;
+10/12/2018 21:25:13 4.813169002533: SELECT * FROM `users` WHERE `id` = '575381' LIMIT 1;
+10/12/2018 21:25:14 0.99436688423157: select align,u.id,exp,klan,level,login AS login,battle,deal,odate,u.id_grup as id_grup,u.room as room,u.podarokAD as podarokAD, u.ruines as ruines,u.id_city as id_city,u.hidden as iluz,slp,u.naim,unikstatus,
+				(SELECT `id` FROM oldbk.effects WHERE (`type` = 11 OR `type` = 12 OR `type` = 13 OR `type` = 14) AND `owner` = u.id LIMIT 1) as trv,deal FROM  oldbk.`users` as u
+						    WHERE (u.`odate` >= 1544466223) AND  (u.`klan` = 'ARS'  )  AND id_city = 0
+					ORDER by id_city  ASC , login
+				

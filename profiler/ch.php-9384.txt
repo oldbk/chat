@@ -1,0 +1,16 @@
+22/10/2018 21:11:27 1.3676478862762: SELECT * FROM `users` WHERE `id` = '9384' LIMIT 1;
+24/10/2018 00:08:38 1.4991509914398: select * from oldbk.new_updates where  id > 412 and  hide=0 order by top asc , cdate desc limit 10; 
+26/10/2018 23:58:33 2.5506019592285: SELECT * FROM `users` WHERE `id` = '9384' LIMIT 1;
+01/11/2018 23:58:36 2.378203868866: SELECT * FROM `users` WHERE `id` = '9384' LIMIT 1;
+21/11/2018 23:58:33 1.4021911621094: SELECT * FROM `users` WHERE `id` = '9384' LIMIT 1;
+25/11/2018 23:58:33 1.9128408432007: SELECT * FROM oldbk.smiles WHERE (klan = "" and (owner = 0 OR owner = 9384))  or (owner = 0 and klan = "Family") ORDER BY id ASC
+01/12/2018 15:54:43 2.3470799922943: SELECT UNIX_TIMESTAMP(`cdate`) as tt,text,id FROM oldbk.chat where ((id > 427183638 AND id <= 427213629)) and (city=1 or city=0) and (room='8' or room='-1' ) order by id ASC
+05/12/2018 23:58:35 1.2610669136047: SELECT * FROM `users` WHERE `id` = '9384' LIMIT 1;
+10/12/2018 21:25:13 4.9205892086029: SELECT * from oldbk.user_location where user_id='9384' ;
+10/12/2018 21:25:14 0.99592804908752: SELECT * from oldbk.user_location where user_id='9384' ;
+10/12/2018 21:25:24 10.472038984299: SELECT * from oldbk.user_location where user_id='9384' ;
+10/12/2018 21:25:26 1.3411800861359: SELECT * from oldbk.user_location where user_id='9384' ;
+10/12/2018 21:25:28 1.9525458812714: SELECT * from oldbk.user_location where user_id='9384' ;
+10/12/2018 21:25:31 2.8608040809631: UPDATE `users` SET `odate` = 1544466329 WHERE `id` = 9384;
+10/12/2018 21:25:34 2.7051429748535: SELECT * FROM `users` WHERE `id` = '9384' LIMIT 1;
+11/12/2018 23:14:32 1.1072189807892: SELECT max(id) as maxid FROM oldbk.chat

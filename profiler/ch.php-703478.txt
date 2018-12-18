@@ -1,0 +1,14 @@
+13/10/2018 20:17:15 1.9630420207977: select * from oldbk.new_updates where  id > 409 and  hide=0 order by top asc , cdate desc limit 10; 
+19/10/2018 16:50:08 1.364284992218: UPDATE users set ldate='1539957007' where id=703478; 
+24/10/2018 23:58:31 1.4042108058929: SELECT * FROM `users` WHERE `id` = '703478' LIMIT 1;
+29/10/2018 19:12:18 1.3038799762726: SELECT * FROM `users` WHERE `id` = '703478' LIMIT 1;
+09/11/2018 23:58:32 1.5596768856049: SELECT * FROM `users` WHERE `id` = '703478' LIMIT 1;
+11/11/2018 23:58:34 1.9812660217285: SELECT * FROM oldbk.autoanswer WHERE id = 703478 AND status = 1
+24/11/2018 23:58:32 1.2125251293182: UPDATE `users` SET `odate` = 1543093110 WHERE `id` = 703478;
+01/12/2018 23:58:33 0.95028901100159: SELECT * FROM `users` WHERE `id` = '703478' LIMIT 1;
+01/12/2018 23:58:35 1.9913189411163: SELECT UNIX_TIMESTAMP(`cdate`) as tt,text,id FROM oldbk.chat where ((id > 427373135 AND id <= 427373496)) and (city=1 or city=0) and (room='8' or room='-1' ) order by id ASC
+06/12/2018 23:58:36 1.6576859951019: UPDATE `users` SET `odate` = 1544129914 WHERE `id` = 703478;
+10/12/2018 21:25:08 1.4019570350647: SELECT * from oldbk.user_location where user_id='703478' ;
+10/12/2018 21:25:26 17.429435968399: SELECT * from oldbk.user_location where user_id='703478' ;
+10/12/2018 21:25:29 2.703243970871: select * from oldbk.new_updates where  id > 415 and  hide=0 order by top asc , cdate desc limit 10; 
+10/12/2018 21:25:30 1.6531729698181: UPDATE `users` SET `odate` = 1544466329 WHERE `id` = 703478;

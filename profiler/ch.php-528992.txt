@@ -1,0 +1,14 @@
+09/10/2018 22:07:49 1.195995092392: UPDATE `users` SET `odate` = 1539112067 WHERE `id` = 528992;
+14/10/2018 23:58:30 1.9010779857635: select align,u.id,exp,klan,level,login,battle,deal,odate,u.id_grup as id_grup,u.room as room,u.podarokAD as podarokAD, u.ruines as ruines,u.hidden as iluz,slp,u.naim,unikstatus,
+			(SELECT `id` FROM `effects` WHERE (`type` = 11 OR `type` = 12 OR `type` = 13 OR `type` = 14) AND `owner` = u.id LIMIT 1) as trv,deal FROM  `users` as u
+					    WHERE ((u.`odate` >= 1539550618)) AND u.`id` IN (SELECT `friend` FROM oldbk.friends WHERE owner = 528992 and type = 0 AND klan_list = '')  ORDER by deal DESC, `u`.`login`;
+22/10/2018 20:10:18 1.0623960494995: SELECT * FROM `users` WHERE `id` = '528992' LIMIT 1;
+24/11/2018 23:58:32 1.2068769931793: UPDATE `users` SET `odate` = 1543093110 WHERE `id` = 528992;
+30/11/2018 23:58:33 2.0060257911682: SELECT * from oldbk.user_location where user_id='528992' ;
+10/12/2018 21:25:05 1.0046079158783: SELECT * FROM `users` WHERE `id` = '528992' LIMIT 1;
+10/12/2018 21:25:08 0.95127820968628: SELECT * from oldbk.user_location where user_id='528992' ;
+10/12/2018 21:25:11 3.3620131015778: SELECT * from oldbk.user_location where user_id='528992' ;
+10/12/2018 21:25:14 2.8899040222168: SELECT * from oldbk.user_location where user_id='528992' ;
+10/12/2018 21:25:16 1.483659029007: SELECT * from oldbk.user_location where user_id='528992' ;
+10/12/2018 21:25:20 4.2353241443634: SELECT * from oldbk.user_location where user_id='528992' ;
+10/12/2018 21:25:34 13.777009963989: select * from oldbk.new_updates where  id > 415 and  hide=0 order by top asc , cdate desc limit 10; 

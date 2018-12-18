@@ -1,0 +1,6 @@
+10/12/2018 21:25:18 6.8255798816681: SELECT * FROM `users` WHERE `id` = '644809' LIMIT 1;
+10/12/2018 21:25:19 1.2101440429688: UPDATE users set ldate='1544466318' where id=644809; 
+10/12/2018 21:25:32 12.673770904541: select * from users_clons  where bot_room=8 and bot_online > 0 ORDER by login;
+10/12/2018 21:25:33 0.9021680355072: SELECT * FROM `users` WHERE `id` = '644809' LIMIT 1;
+10/12/2018 21:25:34 1.057727098465: SELECT * FROM oldbk.friends WHERE type = 2 AND owner = 644809
+10/12/2018 21:25:37 1.6577169895172: SELECT * from oldbk.user_location where user_id='644809' ;

@@ -1,0 +1,11 @@
+24/10/2018 13:35:35 0.9090621471405: UPDATE users set ldate='1540377334' where id=116382; 
+04/11/2018 23:58:34 2.2646470069885: SELECT * FROM `users` WHERE `id` = '116382' LIMIT 1;
+08/11/2018 23:58:34 1.1238579750061: SELECT * FROM `users` WHERE `id` = '116382' LIMIT 1;
+15/11/2018 23:58:34 1.9973139762878: SELECT * FROM `users` WHERE `id` = '116382' LIMIT 1;
+24/11/2018 23:58:34 2.0613749027252: SELECT * FROM `users` WHERE `id` = '116382' LIMIT 1;
+01/12/2018 23:58:33 1.1088509559631: SELECT * FROM `users` WHERE `id` = '116382' LIMIT 1;
+01/12/2018 23:58:35 1.9752960205078: select align,u.id,exp,klan,level,login,battle,deal,odate,u.id_grup as id_grup,u.room as room,u.podarokAD as podarokAD, u.ruines as ruines,u.hidden as iluz,slp,hiddenlog,u.naim,unikstatus,
+			(SELECT `id` FROM `effects` WHERE (`type` = 11 OR `type` = 12 OR `type` = 13 OR `type` = 14) AND `owner` = u.id LIMIT 1) as trv,deal FROM  `users` as u
+		    	WHERE (u.`odate` >= 1543697823 OR u.`in_tower` = 1 OR u.`in_tower` = 2 OR u.`in_tower` = 15) AND u.`room` = 45 ORDER by deal DESC, `u`.`login`;
+05/12/2018 22:26:49 0.9300901889801: SELECT * FROM `users` WHERE `id` = '116382' LIMIT 1;
+06/12/2018 23:58:36 1.531919002533: UPDATE `users` SET `odate` = 1544129914 WHERE `id` = 116382;

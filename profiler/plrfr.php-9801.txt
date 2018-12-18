@@ -1,0 +1,3 @@
+10/12/2018 21:25:15 6.8219540119171: SELECT * FROM `users` WHERE `id` = '9801' LIMIT 1;
+10/12/2018 21:25:28 12.289347887039: UPDATE users set ldate='1544466315' where id=9801; 
+10/12/2018 21:25:32 4.3615801334381: select * from user_event_rating where is_end = 1 and is_reward = 0 and user_id = 9801

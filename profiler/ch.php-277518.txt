@@ -1,0 +1,21 @@
+13/10/2018 16:02:07 0.93530488014221: SELECT * FROM `users` WHERE `id` = '277518' LIMIT 1;
+13/10/2018 16:02:32 1.4491250514984: select align,u.id,exp,klan,level,login,battle,deal,odate,u.id_grup as id_grup,u.room as room,u.podarokAD as podarokAD, u.ruines as ruines,u.hidden as iluz,slp,hiddenlog,u.naim,unikstatus,
+			(SELECT `id` FROM `effects` WHERE (`type` = 11 OR `type` = 12 OR `type` = 13 OR `type` = 14) AND `owner` = u.id LIMIT 1) as trv,deal FROM  `users` as u
+		    	WHERE (u.`odate` >= 1539435661 OR u.`in_tower` = 1 OR u.`in_tower` = 2 OR u.`in_tower` = 15) AND u.`room` = 45 ORDER by deal DESC, `u`.`login`;
+14/10/2018 23:58:30 1.9410707950592: SELECT * FROM `users` WHERE `id` = '277518' LIMIT 1;
+15/10/2018 19:27:18 1.4303238391876: SELECT * FROM `users` WHERE `id` = '277518' LIMIT 1;
+17/10/2018 19:58:03 1.2301020622253: SELECT * FROM `users` WHERE `id` = '277518' LIMIT 1;
+18/10/2018 23:58:33 1.2580580711365: UPDATE users set ldate='1539896312' where id=277518; 
+24/10/2018 13:35:47 0.91661596298218: UPDATE users set ldate='1540377346' where id=277518; 
+24/10/2018 23:58:31 2.3230531215668: SELECT * FROM `users` WHERE `id` = '277518' LIMIT 1;
+13/11/2018 23:58:33 2.4689269065857: SELECT * FROM `users` WHERE `id` = '277518' LIMIT 1;
+18/11/2018 06:37:52 1.4080748558044: SELECT * FROM oldbk.friends WHERE type = 2 AND owner = 277518
+18/11/2018 11:25:53 3.015517950058: SET time_zone = '+3:00';
+21/11/2018 23:58:33 1.2594020366669: SELECT * FROM `users` WHERE `id` = '277518' LIMIT 1;
+03/12/2018 19:36:18 1.1757550239563: UPDATE users set ldate='1543854977' where id=277518; 
+06/12/2018 23:58:36 1.6484019756317: SELECT * FROM `users` WHERE `id` = '277518' LIMIT 1;
+08/12/2018 12:24:04 1.1143879890442: SELECT * FROM `users` WHERE `id` = '277518' LIMIT 1;
+08/12/2018 23:58:32 1.323940038681: UPDATE users set ldate='1544302711' where id=277518; 
+08/12/2018 23:58:34 1.4512169361115: SELECT * FROM `users` WHERE `id` = '277518' LIMIT 1;
+09/12/2018 23:58:33 0.96913981437683: SELECT * FROM `users` WHERE `id` = '277518' LIMIT 1;
+09/12/2018 23:58:35 1.9240169525146: UPDATE users set ldate='1544389113' where id=277518; 

@@ -1,0 +1,1 @@
+03/12/2018 23:58:33 1.9898648262024: select * from users_clons  where bot_room=8 and bot_online > 0 ORDER by login;

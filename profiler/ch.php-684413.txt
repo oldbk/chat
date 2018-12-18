@@ -1,0 +1,8 @@
+09/10/2018 23:58:28 0.92066597938538: UPDATE users set ldate='1539118707' where id=684413; 
+13/10/2018 16:02:30 1.0745511054993: UPDATE users set ldate='1539435749' where id=684413; 
+13/10/2018 23:58:28 1.2672140598297: UPDATE users set ldate='1539464307' where id=684413; 
+13/10/2018 23:58:30 1.8531899452209: select * from oldbk.new_updates where  id > 409 and  hide=0 order by top asc , cdate desc limit 10; 
+26/10/2018 23:58:33 1.9433670043945: select * from oldbk.new_updates where  id > 413 and  hide=0 order by top asc , cdate desc limit 10; 
+10/12/2018 21:25:32 22.16090798378: SELECT * FROM oldbk.friends WHERE type = 2 AND owner = 684413
+10/12/2018 21:25:33 1.2021980285645: SELECT * FROM oldbk.autoanswer WHERE id = 684413 AND status = 1
+10/12/2018 21:25:35 1.0521230697632: SELECT * from oldbk.user_location where user_id='684413' ;

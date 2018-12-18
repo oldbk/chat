@@ -1,0 +1,10 @@
+16/10/2018 23:58:29 0.96126794815063: SELECT * FROM `users` WHERE `id` = '635296' LIMIT 1;
+18/10/2018 23:58:33 2.0124471187592: SELECT * FROM oldbk.friends WHERE type = 2 AND owner = 635296
+24/10/2018 00:08:45 1.2184789180756: UPDATE `users` SET `odate` = 1540328923 WHERE `id` = 635296;
+24/11/2018 23:58:32 1.2665901184082: SELECT * FROM `users` WHERE `id` = '635296' LIMIT 1;
+24/11/2018 23:58:34 1.9674689769745: SELECT UNIX_TIMESTAMP(`cdate`) as tt,text,id FROM oldbk.chat where ((id > 424885547 AND id <= 424885915)) and (city=1 or city=0) and (room='49999' or room='-1' ) order by id ASC
+04/12/2018 23:58:34 0.95736694335938: SELECT * FROM `users` WHERE `id` = '635296' LIMIT 1;
+10/12/2018 21:25:30 19.797651052475: SELECT * FROM `users` WHERE `id` = '635296' LIMIT 1;
+10/12/2018 21:25:34 3.5079770088196: select align,u.id,exp,klan,level,login,battle,deal,odate,u.id_grup as id_grup,u.room as room,u.podarokAD as podarokAD, u.ruines as ruines,u.hidden as iluz,slp,hiddenlog,u.naim,unikstatus,
+			(SELECT `id` FROM `effects` WHERE (`type` = 11 OR `type` = 12 OR `type` = 13 OR `type` = 14) AND `owner` = u.id LIMIT 1) as trv,deal FROM  `users` as u
+		    	WHERE (u.`odate` >= 1544466241 OR u.`in_tower` = 1 OR u.`in_tower` = 2 OR u.`in_tower` = 15) AND u.`room` = 8 ORDER by deal DESC, `u`.`login`;

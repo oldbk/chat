@@ -1,0 +1,4 @@
+10/12/2018 21:25:06 1.648323059082: SELECT * from oldbk.user_location where user_id='14684' ;
+10/12/2018 21:25:18 10.731496095657: SELECT * from oldbk.user_location where user_id='14684' ;
+10/12/2018 21:25:23 5.0206098556519: SELECT * from oldbk.user_location where user_id='14684' ;
+10/12/2018 21:25:33 9.5834889411926: SELECT * from oldbk.user_location where user_id='14684' ;

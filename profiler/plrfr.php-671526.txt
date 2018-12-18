@@ -1,0 +1,2 @@
+18/10/2018 23:58:31 1.1171190738678: select * from user_event_rating where is_end = 1 and is_reward = 0 and user_id = 671526
+18/10/2018 23:58:33 1.9112200737: SELECT * FROM users_fortune WHERE owner = 671526

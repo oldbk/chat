@@ -1,0 +1,6 @@
+03/12/2018 19:36:18 1.0872850418091: SELECT * FROM `users` WHERE `id` = '31148' LIMIT 1;
+10/12/2018 21:25:16 1.4846498966217: UPDATE users set ldate='1544466314' where id=31148; 
+10/12/2018 21:25:24 8.2130692005157: select align,u.id,exp,klan,level,login,battle,deal,odate,u.id_grup as id_grup,u.room as room,u.podarokAD as podarokAD, u.ruines as ruines,u.hidden as iluz,slp,hiddenlog,u.naim,unikstatus,
+			(SELECT `id` FROM `effects` WHERE (`type` = 11 OR `type` = 12 OR `type` = 13 OR `type` = 14) AND `owner` = u.id LIMIT 1) as trv,deal FROM  `users` as u
+		    	WHERE (u.`odate` >= 1544466226 OR u.`in_tower` = 1 OR u.`in_tower` = 2 OR u.`in_tower` = 15) AND u.`room` = 8 ORDER by deal DESC, `u`.`login`;
+10/12/2018 21:25:32 8.2213709354401: select * from users_clons  where bot_room=8 and bot_online > 0 ORDER by login;

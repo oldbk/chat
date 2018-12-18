@@ -1,0 +1,5 @@
+02/10/2018 21:09:33 1.2386748790741: UPDATE users set ldate='1538503771' where id=45598; 
+13/10/2018 20:17:13 1.3993701934814: UPDATE `users` SET `odate` = 1539451031 WHERE `id` = 45598;
+22/10/2018 21:11:27 1.0405368804932: SELECT * FROM `users` WHERE `id` = '45598' LIMIT 1;
+24/10/2018 00:08:38 1.5445849895477: select * from oldbk.new_updates where  id > 412 and  hide=0 order by top asc , cdate desc limit 10; 
+24/11/2018 23:58:34 1.9576990604401: select * from users_clons  where bot_room=8 and bot_online > 0 ORDER by login;

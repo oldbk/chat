@@ -1,0 +1,9 @@
+24/10/2018 00:09:26 0.96130704879761: SELECT * FROM `users` WHERE `id` = '482445' LIMIT 1;
+02/12/2018 23:58:34 1.2597000598907: SELECT * FROM `users` WHERE `id` = '482445' LIMIT 1;
+10/12/2018 21:25:07 0.91864991188049: SELECT * FROM oldbk.autoanswer WHERE id = 482445 AND status = 1
+10/12/2018 21:25:20 11.96846818924: SELECT * from oldbk.user_location where user_id='482445' ;
+10/12/2018 21:25:24 4.8896930217743: SELECT * from oldbk.user_location where user_id='482445' ;
+10/12/2018 21:25:26 1.3411481380463: SELECT * from oldbk.user_location where user_id='482445' ;
+10/12/2018 21:25:30 4.5048890113831: SELECT * from oldbk.user_location where user_id='482445' ;
+10/12/2018 21:25:32 2.1054470539093: SELECT * from oldbk.user_location where user_id='482445' ;
+10/12/2018 21:25:34 1.2016038894653: SELECT * from oldbk.user_location where user_id='482445' ;

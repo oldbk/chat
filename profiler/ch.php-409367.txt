@@ -1,0 +1,17 @@
+13/10/2018 16:02:23 1.2620129585266: UPDATE users set ldate='1539435742' where id=409367; 
+18/10/2018 23:58:31 0.99813485145569: SELECT * FROM `users` WHERE `id` = '409367' LIMIT 1;
+18/10/2018 23:58:33 2.0466618537903: select align,u.id,exp,klan,level,login,battle,deal,odate,u.id_grup as id_grup,u.room as room,u.podarokAD as podarokAD, u.ruines as ruines,u.hidden as iluz,slp,hiddenlog,u.naim,unikstatus,
+			(SELECT `id` FROM `effects` WHERE (`type` = 11 OR `type` = 12 OR `type` = 13 OR `type` = 14) AND `owner` = u.id LIMIT 1) as trv,deal FROM  `users` as u
+		    	WHERE (u.`odate` >= 1539896221 OR u.`in_tower` = 1 OR u.`in_tower` = 2 OR u.`in_tower` = 15) AND u.`room` = 49999 ORDER by deal DESC, `u`.`login`;
+22/10/2018 21:11:27 0.98613095283508: SELECT max(id) as maxid FROM oldbk.chat
+26/10/2018 23:58:33 1.4179508686066: SELECT * FROM `users` WHERE `id` = '409367' LIMIT 1;
+06/11/2018 20:43:03 1.7384939193726: SELECT * FROM `users` WHERE `id` = '409367' LIMIT 1;
+18/11/2018 23:58:31 1.6321001052856: SELECT * FROM `users` WHERE `id` = '409367' LIMIT 1;
+22/11/2018 23:58:32 1.4247767925262: SELECT * FROM `users` WHERE `id` = '409367' LIMIT 1;
+03/12/2018 23:58:33 1.994649887085: select * from users_clons  where bot_room=8 and bot_online > 0 ORDER by login;
+09/12/2018 23:58:35 1.8973920345306: SELECT * FROM `users` WHERE `id` = '409367' LIMIT 1;
+10/12/2018 21:25:28 4.1743180751801: SELECT * FROM `users` WHERE `id` = '409367' LIMIT 1;
+10/12/2018 21:25:30 2.4033749103546: select align,u.id,exp,klan,level,login,battle,deal,odate,u.id_grup as id_grup,u.room as room,u.podarokAD as podarokAD, u.ruines as ruines,u.hidden as iluz,slp,hiddenlog,u.naim,unikstatus,
+			(SELECT `id` FROM `effects` WHERE (`type` = 11 OR `type` = 12 OR `type` = 13 OR `type` = 14) AND `owner` = u.id LIMIT 1) as trv,deal FROM  `users` as u
+		    	WHERE (u.`odate` >= 1544466238 OR u.`in_tower` = 1 OR u.`in_tower` = 2 OR u.`in_tower` = 15) AND u.`room` = 7029521 ORDER by deal DESC, `u`.`login`;
+10/12/2018 21:25:34 3.0084230899811: SELECT * FROM `users` WHERE `id` = '409367' LIMIT 1;

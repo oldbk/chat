@@ -1,0 +1,20 @@
+13/10/2018 23:58:30 1.6920709609985: SELECT * FROM `users` WHERE `id` = '93691' LIMIT 1;
+16/10/2018 23:58:29 1.380578994751: UPDATE users set ldate='1539723508' where id=93691; 
+24/10/2018 00:08:45 1.0424621105194: SELECT * FROM `users` WHERE `id` = '93691' LIMIT 1;
+24/10/2018 00:09:09 0.93340110778809: UPDATE users set ldate='1540328948' where id=93691; 
+29/10/2018 19:12:18 1.2810461521149: SELECT * FROM `users` WHERE `id` = '93691' LIMIT 1;
+30/10/2018 21:42:48 1.1333429813385: SELECT * FROM `users` WHERE `id` = '93691' LIMIT 1;
+09/11/2018 23:58:30 1.405238866806: UPDATE users set ldate='1541797109' where id=93691; 
+09/11/2018 23:58:32 1.9595820903778: select * from users_clons  where bot_room=8 and bot_online > 0 ORDER by login;
+17/11/2018 23:58:33 2.5654449462891: SELECT * FROM `users` WHERE `id` = '93691' LIMIT 1;
+18/11/2018 23:58:31 2.1612908840179: SELECT * FROM `users` WHERE `id` = '93691' LIMIT 1;
+21/11/2018 23:58:33 1.7544639110565: SELECT * FROM `users` WHERE `id` = '93691' LIMIT 1;
+08/12/2018 23:58:32 1.2778220176697: UPDATE users set ldate='1544302711' where id=93691; 
+10/12/2018 21:25:16 5.8003399372101: SELECT * FROM `users` WHERE `id` = '93691' LIMIT 1;
+10/12/2018 21:25:18 2.537987947464: UPDATE users set ldate='1544466316' where id=93691; 
+10/12/2018 21:25:20 1.4520890712738: INSERT INTO `oldbk`.`users_timer` SET `owner`='93691',`ctime`=1,`ttime`=NOW() ON DUPLICATE KEY UPDATE `ctime`=`ctime`+1,`ttime`=NOW() ;
+10/12/2018 21:25:20 0.95435404777527: select align,u.id,exp,klan,level,login,battle,deal,odate,u.id_grup as id_grup,u.room as room,u.podarokAD as podarokAD, u.ruines as ruines,u.hidden as iluz,slp,hiddenlog,u.naim,unikstatus,
+			(SELECT `id` FROM `effects` WHERE (`type` = 11 OR `type` = 12 OR `type` = 13 OR `type` = 14) AND `owner` = u.id LIMIT 1) as trv,deal FROM  `users` as u
+		    	WHERE (u.`odate` >= 1544466230 OR u.`in_tower` = 1 OR u.`in_tower` = 2 OR u.`in_tower` = 15) AND u.`room` = 8 ORDER by deal DESC, `u`.`login`;
+10/12/2018 21:25:23 2.431134223938: SELECT * FROM `users` WHERE `id` = '93691' LIMIT 1;
+10/12/2018 21:25:29 6.37757396698: select * from users_clons  where bot_room=8 and bot_online > 0 ORDER by login;

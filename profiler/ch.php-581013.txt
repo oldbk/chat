@@ -1,0 +1,13 @@
+18/10/2018 23:58:33 1.4652819633484: SELECT max(id) as maxid FROM oldbk.chat
+31/10/2018 19:31:03 1.8095500469208: select align,u.id,exp,klan,level,login,battle,deal,odate,u.id_grup as id_grup,u.room as room,u.podarokAD as podarokAD, u.ruines as ruines,u.hidden as iluz,slp,hiddenlog,u.naim,unikstatus,
+			(SELECT `id` FROM `effects` WHERE (`type` = 11 OR `type` = 12 OR `type` = 13 OR `type` = 14) AND `owner` = u.id LIMIT 1) as trv,deal FROM  `users` as u
+		    	WHERE (u.`odate` >= 1541003371 OR u.`in_tower` = 1 OR u.`in_tower` = 2 OR u.`in_tower` = 15) AND u.`room` = 270 ORDER by deal DESC, `u`.`login`;
+06/11/2018 23:58:33 1.6215908527374: SELECT * FROM `users` WHERE `id` = '581013' LIMIT 1;
+20/11/2018 23:58:33 1.0300588607788: SELECT * FROM `users` WHERE `id` = '581013' LIMIT 1;
+30/11/2018 23:58:33 1.3105540275574: SELECT * FROM `users` WHERE `id` = '581013' LIMIT 1;
+05/12/2018 23:58:35 1.8823821544647: SELECT * FROM `users` WHERE `id` = '581013' LIMIT 1;
+10/12/2018 21:25:19 10.589071989059: SELECT * FROM oldbk.friends WHERE type = 2 AND owner = 581013
+10/12/2018 21:25:30 10.648178100586: SELECT * FROM oldbk.autoanswer WHERE id = 581013 AND status = 1
+10/12/2018 21:25:33 3.4547209739685: SELECT * from oldbk.user_location where user_id='581013' ;
+10/12/2018 21:25:34 0.90652394294739: SELECT * from oldbk.user_location where user_id='581013' ;
+10/12/2018 21:25:36 1.0525879859924: SELECT * from oldbk.user_location where user_id='581013' ;

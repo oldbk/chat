@@ -1,0 +1,7 @@
+19/10/2018 23:58:31 1.8387911319733: UPDATE `users` SET `odate` = 1539982709 WHERE `id` = 635839;
+24/10/2018 01:31:18 1.0324380397797: UPDATE users set ldate='1540333877' where id=635839; 
+24/10/2018 13:35:47 1.1290199756622: SELECT * FROM `users` WHERE `id` = '635839' LIMIT 1;
+24/10/2018 13:36:02 1.3453190326691: select chc.* , ch.mname , ch.filt_mname from oldbk.chat_chanels as chc LEFT JOIN oldbk.chanels as ch ON ch.klan=chc.clan2 and ch.user='635839' where chc.clan1='Abaddons' and chc.clan2='Aton' and chc.chanel='2' and chc.chanel2='3' and chc.active =1 LIMIT 1;
+06/11/2018 23:58:33 1.1191411018372: SELECT * FROM `users` WHERE `id` = '635839' LIMIT 1;
+27/11/2018 23:58:33 3.0455479621887: UPDATE users set ldate='1543352310' where id=635839; 
+30/11/2018 00:32:47 1.493273973465: UPDATE users set ldate='1543527166' where id=635839; 

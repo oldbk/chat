@@ -1,0 +1,7 @@
+12/10/2018 23:58:29 1.0902559757233: select * from oldbk.new_updates where  id > 409 and  hide=0 order by top asc , cdate desc limit 10; 
+17/11/2018 23:58:32 1.8703370094299: SELECT * FROM `users` WHERE `id` = '657511' LIMIT 1;
+01/12/2018 23:58:35 0.92354702949524: SELECT * FROM `users` WHERE `id` = '657511' LIMIT 1;
+07/12/2018 23:58:35 3.2112278938293: SELECT * FROM `users` WHERE `id` = '657511' LIMIT 1;
+10/12/2018 21:25:15 7.0646569728851: SELECT * from oldbk.user_location where user_id='657511' ;
+10/12/2018 21:25:32 16.99813079834: SELECT * from oldbk.user_location where user_id='657511' ;
+11/12/2018 23:14:32 1.1316568851471: SELECT max(id) as maxid FROM oldbk.chat

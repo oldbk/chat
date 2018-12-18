@@ -1,0 +1,2 @@
+01/12/2018 23:58:35 1.9639699459076: SELECT max(id) as maxid FROM oldbk.chat
+04/12/2018 23:58:34 1.0897657871246: UPDATE users set ldate='1543957113' where id=691556; 

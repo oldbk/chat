@@ -1,0 +1,2 @@
+29/10/2018 09:01:04 2.8156740665436: UPDATE users set ldate='1540792861' where id=422005; 
+19/11/2018 11:15:36 1.4061510562897: SELECT * from oldbk.user_location where user_id='422005' ;

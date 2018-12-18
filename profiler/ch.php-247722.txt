@@ -1,0 +1,21 @@
+13/10/2018 16:02:23 1.6756548881531: UPDATE users set ldate='1539435741' where id=247722; 
+16/10/2018 23:58:31 1.0934998989105: UPDATE users set ldate='1539723510' where id=247722; 
+22/10/2018 23:58:29 1.3726069927216: UPDATE users set ldate='1540241907' where id=247722; 
+24/10/2018 01:31:18 1.2097568511963: UPDATE `users` SET `odate` = 1540333877 WHERE `id` = 247722;
+24/10/2018 01:33:02 1.8679468631744: UPDATE users set ldate='1540333981' where id=247722; 
+30/10/2018 23:58:33 2.0141968727112: select * from users_clons  where bot_room=8 and bot_online > 0 ORDER by login;
+04/11/2018 23:58:34 2.1908030509949: SELECT * FROM `users` WHERE `id` = '247722' LIMIT 1;
+07/11/2018 23:58:31 1.1000211238861: SELECT * FROM `users` WHERE `id` = '247722' LIMIT 1;
+07/11/2018 23:58:33 1.5821640491486: UPDATE users set ldate='1541624311' where id=247722; 
+14/11/2018 22:42:18 1.2092280387878: SELECT * FROM `users` WHERE `id` = '247722' LIMIT 1;
+18/11/2018 20:24:43 3.0611581802368: select align,u.id,exp,klan,level,login,battle,deal,odate,u.id_grup as id_grup,u.room as room,u.podarokAD as podarokAD, u.ruines as ruines,u.hidden as iluz,slp,hiddenlog,u.naim,unikstatus,
+			(SELECT `id` FROM `effects` WHERE (`type` = 11 OR `type` = 12 OR `type` = 13 OR `type` = 14) AND `owner` = u.id LIMIT 1) as trv,deal FROM  `users` as u
+		    	WHERE (u.`odate` >= 1542561790 OR u.`in_tower` = 1 OR u.`in_tower` = 2 OR u.`in_tower` = 15) AND u.`room` = 8 ORDER by deal DESC, `u`.`login`;
+30/11/2018 23:58:33 2.004399061203: SELECT * from oldbk.user_location where user_id='247722' ;
+01/12/2018 00:05:03 1.4189410209656: SELECT * FROM `users` WHERE `id` = '247722' LIMIT 1;
+09/12/2018 23:58:35 1.0204708576202: SELECT * FROM `users` WHERE `id` = '247722' LIMIT 1;
+10/12/2018 21:25:07 0.90843391418457: SELECT * from oldbk.user_location where user_id='247722' ;
+10/12/2018 21:25:09 1.2467970848083: SELECT * from oldbk.user_location where user_id='247722' ;
+10/12/2018 21:25:32 22.750429868698: SELECT * from oldbk.user_location where user_id='247722' ;
+10/12/2018 21:25:33 1.2015309333801: SELECT * from oldbk.user_location where user_id='247722' ;
+10/12/2018 21:25:35 1.3597328662872: SELECT * FROM `users` WHERE `id` = '247722' LIMIT 1;

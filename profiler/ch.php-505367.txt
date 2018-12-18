@@ -1,0 +1,11 @@
+17/10/2018 19:58:03 1.5337471961975: SELECT * FROM `users` WHERE `id` = '505367' LIMIT 1;
+01/11/2018 23:58:36 1.9115490913391: SELECT * FROM `users` WHERE `id` = '505367' LIMIT 1;
+14/11/2018 22:42:18 1.5563380718231: UPDATE users set ldate='1542224537' where id=505367; 
+16/11/2018 23:58:32 0.92729115486145: SELECT * FROM `users` WHERE `id` = '505367' LIMIT 1;
+10/12/2018 21:25:11 1.2834460735321: SELECT * FROM `users` WHERE `id` = '505367' LIMIT 1;
+10/12/2018 21:25:19 8.2607569694519: UPDATE users set ldate='1544466311' where id=505367; 
+10/12/2018 21:25:33 13.139902830124: select align,u.id,exp,klan,level,login,battle,deal,odate,u.id_grup as id_grup,u.room as room,u.podarokAD as podarokAD, u.ruines as ruines,u.hidden as iluz,slp,hiddenlog,u.naim,unikstatus,
+			(SELECT `id` FROM `effects` WHERE (`type` = 11 OR `type` = 12 OR `type` = 13 OR `type` = 14) AND `owner` = u.id LIMIT 1) as trv,deal FROM  `users` as u
+		    	WHERE (u.`odate` >= 1544466229 OR u.`in_tower` = 1 OR u.`in_tower` = 2 OR u.`in_tower` = 15) AND u.`room` = 8 ORDER by deal DESC, `u`.`login`;
+10/12/2018 21:25:34 1.5053880214691: select * from users_clons  where bot_room=8 and bot_online > 0 ORDER by login;
+12/12/2018 23:58:32 0.94907307624817: SELECT * FROM `users` WHERE `id` = '505367' LIMIT 1;

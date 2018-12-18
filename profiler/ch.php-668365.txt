@@ -1,0 +1,5 @@
+10/10/2018 23:58:30 1.8706300258636: SELECT * FROM oldbk.friends WHERE type = 2 AND owner = 668365
+24/10/2018 01:33:02 1.1577470302582: select * from oldbk.new_updates where  id > 412 and  hide=0 order by top asc , cdate desc limit 10; 
+24/10/2018 23:58:31 0.94546294212341: SELECT * FROM `users` WHERE `id` = '668365' LIMIT 1;
+30/10/2018 23:58:33 1.1959779262543: SELECT * FROM `users` WHERE `id` = '668365' LIMIT 1;
+01/11/2018 23:58:36 1.4501779079437: SELECT * FROM `users` WHERE `id` = '668365' LIMIT 1;

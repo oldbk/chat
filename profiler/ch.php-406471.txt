@@ -1,0 +1,9 @@
+13/10/2018 20:17:15 1.0898129940033: SELECT * FROM `users` WHERE `id` = '406471' LIMIT 1;
+22/10/2018 20:10:18 1.971832036972: UPDATE users set ldate='1540228216' where id=406471; 
+24/10/2018 11:02:34 4.0958178043365: SELECT UNIX_TIMESTAMP(`cdate`) as tt,text,id FROM oldbk.chat where ((id > 413341823 AND id <= 413343101)) and (city=1 or city=0) and (room='8' or room='-1' ) order by id ASC
+28/10/2018 22:35:46 1.406702041626: select * from oldbk.new_updates where  id > 413 and  hide=0 order by top asc , cdate desc limit 10; 
+29/10/2018 19:12:18 0.92604088783264: SELECT * FROM `users` WHERE `id` = '406471' LIMIT 1;
+31/10/2018 19:31:03 1.4811811447144: SELECT * FROM `users` WHERE `id` = '406471' LIMIT 1;
+05/11/2018 19:19:03 0.92861890792847: UPDATE users set ldate='1541434742' where id=406471; 
+18/11/2018 19:29:36 1.7977840900421: SELECT * from oldbk.user_location where user_id='406471' ;
+04/12/2018 22:06:02 1.0830810070038: UPDATE users set ldate='1543950361' where id=406471; 

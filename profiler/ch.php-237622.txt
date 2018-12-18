@@ -1,0 +1,13 @@
+02/10/2018 21:09:33 1.0283789634705: UPDATE users set ldate='1538503772' where id=237622; 
+11/10/2018 23:58:32 1.9428679943085: SELECT * FROM oldbk.autoanswer WHERE id = 237622 AND status = 1
+15/10/2018 23:58:29 1.0046579837799: SELECT * FROM `users` WHERE `id` = '237622' LIMIT 1;
+24/10/2018 23:58:31 2.5867719650269: SELECT * FROM `users` WHERE `id` = '237622' LIMIT 1;
+29/10/2018 15:20:27 0.93755316734314: UPDATE `users` SET `odate` = 1540815626 WHERE `id` = 237622;
+21/11/2018 12:31:55 1.4066338539124: SELECT * from oldbk.user_location where user_id='237622' ;
+30/11/2018 23:58:33 2.0085759162903: SELECT * from oldbk.user_location where user_id='237622' ;
+01/12/2018 23:58:35 1.9638960361481: SELECT * from oldbk.user_location where user_id='237622' ;
+08/12/2018 23:58:34 1.2036039829254: SELECT * FROM `users` WHERE `id` = '237622' LIMIT 1;
+10/12/2018 21:25:29 0.90334296226501: SELECT * FROM `users` WHERE `id` = '237622' LIMIT 1;
+10/12/2018 21:25:30 1.0560278892517: UPDATE users set ldate='1544466329' where id=237622; 
+10/12/2018 21:25:33 2.5531730651855: SELECT UNIX_TIMESTAMP(`cdate`) as tt,text,id FROM oldbk.chat where ((id > 431407214 AND id <= 431407232)) and (city=1 or city=0) and (room='8' or room='-1' ) order by id ASC
+10/12/2018 21:25:34 0.90607404708862: SELECT * from oldbk.user_location where user_id='237622' ;

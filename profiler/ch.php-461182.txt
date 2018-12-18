@@ -1,0 +1,4 @@
+23/11/2018 23:58:31 1.2624759674072: SELECT * FROM `users` WHERE `id` = '461182' LIMIT 1;
+25/11/2018 23:58:33 1.5535531044006: select * from users_clons  where bot_room=8 and bot_online > 0 ORDER by login;
+03/12/2018 19:36:18 1.1289789676666: SELECT * FROM `users` WHERE `id` = '461182' LIMIT 1;
+08/12/2018 12:24:04 1.8607380390167: UPDATE users set ldate='1544261042' where id=461182; 

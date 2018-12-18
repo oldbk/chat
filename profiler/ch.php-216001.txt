@@ -1,0 +1,11 @@
+19/10/2018 16:50:08 1.0216910839081: UPDATE `users` SET `odate` = 1539957007 WHERE `id` = 216001;
+24/10/2018 00:08:31 1.2259049415588: UPDATE users set ldate='1540328910' where id=216001; 
+24/10/2018 01:33:02 1.624890089035: SELECT * FROM `users` WHERE `id` = '216001' LIMIT 1;
+04/12/2018 22:06:02 1.1017332077026: SELECT * FROM `users` WHERE `id` = '216001' LIMIT 1;
+06/12/2018 23:58:36 1.1702649593353: SELECT * FROM `users` WHERE `id` = '216001' LIMIT 1;
+10/12/2018 14:19:29 1.8049218654633: SELECT * FROM oldbk.autoanswer WHERE id = 216001 AND status = 1
+10/12/2018 21:25:07 1.0869641304016: SELECT * from oldbk.user_location where user_id='216001' ;
+10/12/2018 21:25:17 9.7423288822174: SELECT * from oldbk.user_location where user_id='216001' ;
+10/12/2018 21:25:19 1.7790429592133: SELECT * from oldbk.user_location where user_id='216001' ;
+10/12/2018 21:25:24 5.2556118965149: SELECT * from oldbk.user_location where user_id='216001' ;
+10/12/2018 21:25:33 9.0109708309174: SELECT * from oldbk.user_location where user_id='216001' ;

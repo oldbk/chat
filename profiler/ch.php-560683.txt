@@ -1,0 +1,10 @@
+13/10/2018 16:03:05 1.1387979984283: UPDATE users set ldate='1539435784' where id=560683; 
+22/10/2018 21:11:27 1.1020550727844: SELECT * FROM `users` WHERE `id` = '560683' LIMIT 1;
+23/10/2018 20:39:33 1.135959148407: UPDATE users set ldate='1540316372' where id=560683; 
+24/10/2018 13:35:36 1.3894028663635: UPDATE users set ldate='1540377334' where id=560683; 
+31/10/2018 19:31:03 1.7171821594238: select align,u.id,exp,klan,level,login AS login,battle,deal,odate,u.id_grup as id_grup,u.room as room,u.podarokAD as podarokAD, u.ruines as ruines,u.id_city as id_city,u.hidden as iluz,slp,u.naim,unikstatus,
+				(SELECT `id` FROM oldbk.effects WHERE (`type` = 11 OR `type` = 12 OR `type` = 13 OR `type` = 14) AND `owner` = u.id LIMIT 1) as trv,deal FROM  oldbk.`users` as u
+						    WHERE (u.`odate` >= 1541003371) AND  (u.`klan` = 'DarkInLife'  )  AND id_city = 0
+					ORDER by id_city  ASC , login
+				
+09/12/2018 23:58:35 1.9167768955231: SELECT * FROM oldbk.autoanswer WHERE id = 560683 AND status = 1

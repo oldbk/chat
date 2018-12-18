@@ -1,0 +1,17 @@
+11/10/2018 23:58:32 1.0986678600311: SELECT * FROM `users` WHERE `id` = '704300' LIMIT 1;
+13/10/2018 16:02:32 1.1187801361084: select align,u.id,exp,klan,level,login,battle,deal,odate,u.id_grup as id_grup,u.room as room,u.podarokAD as podarokAD, u.ruines as ruines,u.hidden as iluz,slp,hiddenlog,u.naim,unikstatus,
+			(SELECT `id` FROM `effects` WHERE (`type` = 11 OR `type` = 12 OR `type` = 13 OR `type` = 14) AND `owner` = u.id LIMIT 1) as trv,deal FROM  `users` as u
+		    	WHERE (u.`odate` >= 1539435661 OR u.`in_tower` = 1 OR u.`in_tower` = 2 OR u.`in_tower` = 15) AND u.`room` = 8 ORDER by deal DESC, `u`.`login`;
+13/10/2018 20:17:15 2.7101471424103: SELECT * FROM `users` WHERE `id` = '704300' LIMIT 1;
+16/10/2018 21:28:04 0.96577405929565: SELECT * FROM `users` WHERE `id` = '704300' LIMIT 1;
+23/10/2018 23:58:31 1.5880110263824: SELECT * FROM `users` WHERE `id` = '704300' LIMIT 1;
+23/10/2018 23:58:32 1.5475311279297: SELECT * FROM oldbk.autoanswer WHERE id = 704300 AND status = 1
+24/10/2018 01:33:02 1.00639295578: SELECT * FROM `users` WHERE `id` = '704300' LIMIT 1;
+24/10/2018 13:35:47 0.90093493461609: SELECT * FROM `users` WHERE `id` = '704300' LIMIT 1;
+24/10/2018 13:35:54 0.99447989463806: UPDATE users set ldate='1540377353' where id=704300; 
+25/10/2018 23:58:29 1.0026199817657: UPDATE `users` SET `odate` = 1540501108 WHERE `id` = 704300;
+31/10/2018 23:58:37 1.7776820659637: SELECT * FROM `users` WHERE `id` = '704300' LIMIT 1;
+03/11/2018 23:58:34 1.8181929588318: SELECT * FROM `users` WHERE `id` = '704300' LIMIT 1;
+13/11/2018 23:58:31 1.0434408187866: SELECT * FROM `users` WHERE `id` = '704300' LIMIT 1;
+13/11/2018 23:58:33 1.9991710186005: select * from users_clons  where bot_room=91 and bot_online > 0 ORDER by login;
+07/12/2018 23:58:35 2.5377259254456: SELECT * FROM `users` WHERE `id` = '704300' LIMIT 1;

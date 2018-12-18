@@ -1,0 +1,1 @@
+02/11/2018 23:58:35 1.9514009952545: SELECT max(id) as maxid FROM oldbk.chat

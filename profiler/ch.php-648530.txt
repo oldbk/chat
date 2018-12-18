@@ -1,0 +1,9 @@
+19/10/2018 23:58:31 1.605476140976: SELECT * FROM `users` WHERE `id` = '648530' LIMIT 1;
+24/10/2018 00:08:38 1.4741048812866: UPDATE `users` SET `odate` = 1540328917 WHERE `id` = 648530;
+01/11/2018 00:05:03 1.823429107666: UPDATE `users` SET `odate` = 1541019902 WHERE `id` = 648530;
+20/11/2018 15:36:16 1.4070358276367: SELECT * from oldbk.user_location where user_id='648530' ;
+26/11/2018 19:38:34 1.762904882431: SELECT * FROM `users` WHERE `id` = '648530' LIMIT 1;
+30/11/2018 23:58:33 1.1788611412048: SELECT * FROM `users` WHERE `id` = '648530' LIMIT 1;
+01/12/2018 23:58:35 2.0159900188446: select align,u.id,exp,klan,level,login,battle,deal,odate,u.id_grup as id_grup,u.room as room,u.podarokAD as podarokAD, u.ruines as ruines,u.hidden as iluz,slp,hiddenlog,u.naim,unikstatus,
+			(SELECT `id` FROM `effects` WHERE (`type` = 11 OR `type` = 12 OR `type` = 13 OR `type` = 14) AND `owner` = u.id LIMIT 1) as trv,deal FROM  `users` as u
+		    	WHERE (u.`odate` >= 1543697823 OR u.`in_tower` = 1 OR u.`in_tower` = 2 OR u.`in_tower` = 15) AND u.`room` = 8 ORDER by deal DESC, `u`.`login`;
